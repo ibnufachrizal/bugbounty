@@ -27,3 +27,9 @@ curl -s https://api.securitytrails.com/v1/domain/gcox.com/subdomains?apikey=Udbu
 ```
 
 
+### XSS Auto
+> @ibnufachrizal
+
+```bash
+echo "http://testphp.vulnweb.com" | waybackurls | httpx -silent | Gxss -c 100 -p Xss | grep "URL" | cut -d '"' -f2 | sort -u | dalfox pipe
+```
