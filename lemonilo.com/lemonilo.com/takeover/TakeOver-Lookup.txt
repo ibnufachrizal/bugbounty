@@ -1,0 +1,317 @@
+Using domain server:
+Name: 8.8.8.8
+Address: 8.8.8.8#53
+Aliases: 
+
+a-banggakansehatmu.lemonilo.com is an alias for ghs.googlehosted.com.
+ghs.googlehosted.com has address 172.217.6.179
+ghs.googlehosted.com has IPv6 address 2607:f8b0:4000:804::2013
+Using domain server:
+Name: 1.1.1.1
+Address: 1.1.1.1#53
+Aliases: 
+
+a-banggakansehatmu.lemonilo.com is an alias for ghs.googlehosted.com.
+ghs.googlehosted.com has address 142.250.64.179
+ghs.googlehosted.com has IPv6 address 2607:f8b0:4008:80e::2013
+Using domain server:
+Name: 8.8.4.4
+Address: 8.8.4.4#53
+Aliases: 
+
+a-banggakansehatmu.lemonilo.com is an alias for ghs.googlehosted.com.
+ghs.googlehosted.com has address 172.217.6.179
+ghs.googlehosted.com has IPv6 address 2607:f8b0:4000:804::2013
+Using domain server:
+Name: 8.8.8.8
+Address: 8.8.8.8#53
+Aliases: 
+
+d-banggakansehatmu.lemonilo.com is an alias for ghs.googlehosted.com.
+ghs.googlehosted.com has address 172.217.6.179
+ghs.googlehosted.com has IPv6 address 2607:f8b0:4000:804::2013
+Using domain server:
+Name: 1.1.1.1
+Address: 1.1.1.1#53
+Aliases: 
+
+d-banggakansehatmu.lemonilo.com is an alias for ghs.googlehosted.com.
+ghs.googlehosted.com has address 142.250.64.179
+ghs.googlehosted.com has IPv6 address 2607:f8b0:4008:80e::2013
+Using domain server:
+Name: 8.8.4.4
+Address: 8.8.4.4#53
+Aliases: 
+
+xdtzrx.lemonilo.com is an alias for dnsdelegation.io.
+dnsdelegation.io is an alias for gum.criteo.com.
+gum.criteo.com is an alias for gum.da1.vip.prod.criteo.com.
+gum.da1.vip.prod.criteo.com has address 74.119.118.149
+gum.da1.vip.prod.criteo.com has IPv6 address 2620:100:a005::d
+Using domain server:
+Name: 8.8.8.8
+Address: 8.8.8.8#53
+Aliases: 
+
+m-banggakansehatmu.lemonilo.com is an alias for ghs.googlehosted.com.
+ghs.googlehosted.com has address 172.217.6.179
+ghs.googlehosted.com has IPv6 address 2607:f8b0:4000:804::2013
+Using domain server:
+Name: 8.8.4.4
+Address: 8.8.4.4#53
+Aliases: 
+
+d-wiranilo.lemonilo.com is an alias for ghs.googlehosted.com.
+ghs.googlehosted.com has address 172.217.6.179
+ghs.googlehosted.com has IPv6 address 2607:f8b0:4000:804::2013
+Using domain server:
+Name: 8.8.8.8
+Address: 8.8.8.8#53
+Aliases: 
+
+d-wiranilo.lemonilo.com is an alias for ghs.googlehosted.com.
+ghs.googlehosted.com has address 172.217.6.179
+ghs.googlehosted.com has IPv6 address 2607:f8b0:4000:804::2013
+Using domain server:
+Name: 8.8.8.8
+Address: 8.8.8.8#53
+Aliases: 
+
+email.lemonilo.com is an alias for email.secureserver.net.
+email.secureserver.net has address 173.201.192.133
+email.secureserver.net has address 173.201.192.148
+email.secureserver.net has address 173.201.192.20
+email.secureserver.net has address 173.201.192.5
+email.secureserver.net has address 173.201.193.133
+email.secureserver.net has address 173.201.193.148
+email.secureserver.net has address 173.201.193.20
+email.secureserver.net has address 173.201.193.5
+email.secureserver.net has address 45.40.130.40
+email.secureserver.net has address 45.40.130.41
+email.secureserver.net has address 45.40.140.6
+email.secureserver.net has address 68.178.252.133
+email.secureserver.net has address 68.178.252.148
+email.secureserver.net has address 68.178.252.20
+email.secureserver.net has address 68.178.252.5
+email.secureserver.net has address 72.167.218.173
+email.secureserver.net has address 72.167.218.183
+email.secureserver.net has address 72.167.218.45
+email.secureserver.net has address 72.167.218.55
+email.secureserver.net has address 97.74.135.133
+email.secureserver.net has address 97.74.135.148
+email.secureserver.net has address 97.74.135.45
+email.secureserver.net has address 97.74.135.55
+Using domain server:
+Name: 8.8.4.4
+Address: 8.8.4.4#53
+Aliases: 
+
+m-banggakansehatmu.lemonilo.com is an alias for ghs.googlehosted.com.
+ghs.googlehosted.com has address 172.217.6.179
+ghs.googlehosted.com has IPv6 address 2607:f8b0:4000:80c::2013
+Using domain server:
+Name: 8.8.8.8
+Address: 8.8.8.8#53
+Aliases: 
+
+m-wiranilo.lemonilo.com is an alias for ghs.googlehosted.com.
+ghs.googlehosted.com has address 172.217.6.179
+ghs.googlehosted.com has IPv6 address 2607:f8b0:4000:804::2013
+Using domain server:
+Name: 8.8.4.4
+Address: 8.8.4.4#53
+Aliases: 
+
+m-wiranilo.lemonilo.com is an alias for ghs.googlehosted.com.
+ghs.googlehosted.com has address 172.217.6.179
+ghs.googlehosted.com has IPv6 address 2607:f8b0:4000:804::2013
+Using domain server:
+Name: 8.8.4.4
+Address: 8.8.4.4#53
+Aliases: 
+
+d-banggakansehatmu.lemonilo.com is an alias for ghs.googlehosted.com.
+ghs.googlehosted.com has address 172.217.6.179
+ghs.googlehosted.com has IPv6 address 2607:f8b0:4000:80c::2013
+Using domain server:
+Name: 1.1.1.1
+Address: 1.1.1.1#53
+Aliases: 
+
+d-wiranilo.lemonilo.com is an alias for ghs.googlehosted.com.
+ghs.googlehosted.com has address 142.250.64.179
+ghs.googlehosted.com has IPv6 address 2607:f8b0:4008:80e::2013
+Using domain server:
+Name: 1.1.1.1
+Address: 1.1.1.1#53
+Aliases: 
+
+email.lemonilo.com is an alias for email.secureserver.net.
+email.secureserver.net has address 173.201.193.5
+email.secureserver.net has address 68.178.252.133
+email.secureserver.net has address 97.74.135.148
+email.secureserver.net has address 97.74.135.55
+email.secureserver.net has address 68.178.252.20
+email.secureserver.net has address 173.201.193.133
+email.secureserver.net has address 173.201.192.20
+email.secureserver.net has address 72.167.218.55
+email.secureserver.net has address 45.40.140.6
+email.secureserver.net has address 173.201.192.5
+email.secureserver.net has address 68.178.252.5
+email.secureserver.net has address 173.201.192.148
+email.secureserver.net has address 72.167.218.45
+email.secureserver.net has address 45.40.130.41
+email.secureserver.net has address 68.178.252.148
+email.secureserver.net has address 72.167.218.183
+email.secureserver.net has address 173.201.192.133
+email.secureserver.net has address 97.74.135.45
+email.secureserver.net has address 97.74.135.133
+email.secureserver.net has address 45.40.130.40
+email.secureserver.net has address 173.201.193.20
+email.secureserver.net has address 173.201.193.148
+email.secureserver.net has address 72.167.218.173
+Using domain server:
+Name: 1.1.1.1
+Address: 1.1.1.1#53
+Aliases: 
+
+m-banggakansehatmu.lemonilo.com is an alias for ghs.googlehosted.com.
+ghs.googlehosted.com has address 142.250.64.179
+ghs.googlehosted.com has IPv6 address 2607:f8b0:4008:80e::2013
+Using domain server:
+Name: 1.1.1.1
+Address: 1.1.1.1#53
+Aliases: 
+
+m-wiranilo.lemonilo.com is an alias for ghs.googlehosted.com.
+ghs.googlehosted.com has address 142.250.64.179
+ghs.googlehosted.com has IPv6 address 2607:f8b0:4008:80e::2013
+Using domain server:
+Name: 8.8.4.4
+Address: 8.8.4.4#53
+Aliases: 
+
+hello.lemonilo.com is an alias for unbouncepages.com.
+unbouncepages.com has address 3.218.135.46
+unbouncepages.com has address 3.216.251.45
+Using domain server:
+Name: 8.8.8.8
+Address: 8.8.8.8#53
+Aliases: 
+
+hello.lemonilo.com is an alias for unbouncepages.com.
+unbouncepages.com has address 3.216.251.45
+unbouncepages.com has address 3.218.135.46
+Using domain server:
+Name: 8.8.4.4
+Address: 8.8.4.4#53
+Aliases: 
+
+email.lemonilo.com is an alias for email.secureserver.net.
+email.secureserver.net has address 45.40.130.41
+email.secureserver.net has address 68.178.252.5
+email.secureserver.net has address 68.178.252.133
+email.secureserver.net has address 173.201.193.20
+email.secureserver.net has address 97.74.135.55
+email.secureserver.net has address 72.167.218.173
+email.secureserver.net has address 173.201.193.133
+email.secureserver.net has address 72.167.218.45
+email.secureserver.net has address 173.201.193.5
+email.secureserver.net has address 45.40.130.40
+email.secureserver.net has address 68.178.252.20
+email.secureserver.net has address 97.74.135.45
+email.secureserver.net has address 72.167.218.183
+email.secureserver.net has address 72.167.218.55
+email.secureserver.net has address 173.201.192.20
+email.secureserver.net has address 97.74.135.133
+email.secureserver.net has address 45.40.140.6
+email.secureserver.net has address 173.201.192.148
+email.secureserver.net has address 97.74.135.148
+email.secureserver.net has address 173.201.192.133
+email.secureserver.net has address 68.178.252.148
+email.secureserver.net has address 173.201.193.148
+email.secureserver.net has address 173.201.192.5
+Using domain server:
+Name: 8.8.8.8
+Address: 8.8.8.8#53
+Aliases: 
+
+static.lemonilo.com is an alias for 10tn5i0v1n.imgkit.net.
+10tn5i0v1n.imgkit.net is an alias for d3iua13d5n8jr.cloudfront.net.
+d3iua13d5n8jr.cloudfront.net has address 65.8.219.20
+d3iua13d5n8jr.cloudfront.net has address 65.8.219.110
+d3iua13d5n8jr.cloudfront.net has address 65.8.219.66
+d3iua13d5n8jr.cloudfront.net has address 65.8.219.119
+Using domain server:
+Name: 8.8.4.4
+Address: 8.8.4.4#53
+Aliases: 
+
+static.lemonilo.com is an alias for 10tn5i0v1n.imgkit.net.
+10tn5i0v1n.imgkit.net is an alias for d3iua13d5n8jr.cloudfront.net.
+d3iua13d5n8jr.cloudfront.net has address 65.8.219.20
+d3iua13d5n8jr.cloudfront.net has address 65.8.219.110
+d3iua13d5n8jr.cloudfront.net has address 65.8.219.66
+d3iua13d5n8jr.cloudfront.net has address 65.8.219.119
+Using domain server:
+Name: 1.1.1.1
+Address: 1.1.1.1#53
+Aliases: 
+
+static.lemonilo.com is an alias for 10tn5i0v1n.imgkit.net.
+10tn5i0v1n.imgkit.net is an alias for d3iua13d5n8jr.cloudfront.net.
+d3iua13d5n8jr.cloudfront.net has address 13.32.81.43
+d3iua13d5n8jr.cloudfront.net has address 13.32.81.45
+d3iua13d5n8jr.cloudfront.net has address 13.32.81.124
+d3iua13d5n8jr.cloudfront.net has address 13.32.81.119
+Using domain server:
+Name: 1.1.1.1
+Address: 1.1.1.1#53
+Aliases: 
+
+hello.lemonilo.com is an alias for unbouncepages.com.
+unbouncepages.com has address 3.216.251.45
+unbouncepages.com has address 3.218.135.46
+Using domain server:
+Name: 8.8.8.8
+Address: 8.8.8.8#53
+Aliases: 
+
+xdtzrx.lemonilo.com is an alias for dnsdelegation.io.
+dnsdelegation.io is an alias for gum.criteo.com.
+gum.criteo.com is an alias for gum.da1.vip.prod.criteo.com.
+gum.da1.vip.prod.criteo.com has address 74.119.118.149
+gum.da1.vip.prod.criteo.com has IPv6 address 2620:100:a005::d
+Using domain server:
+Name: 1.1.1.1
+Address: 1.1.1.1#53
+Aliases: 
+
+xdtzrx.lemonilo.com is an alias for dnsdelegation.io.
+dnsdelegation.io is an alias for gum.criteo.com.
+gum.criteo.com is an alias for gum.va1.vip.prod.criteo.com.
+gum.va1.vip.prod.criteo.com has address 74.119.119.139
+gum.va1.vip.prod.criteo.com has IPv6 address 2620:100:a001::c
+Using domain server:
+Name: 1.1.1.1
+Address: 1.1.1.1#53
+Aliases: 
+
+trk.lemonilo.com is an alias for emailbout.com.
+emailbout.com has address 204.11.56.48
+Using domain server:
+Name: 8.8.4.4
+Address: 8.8.4.4#53
+Aliases: 
+
+trk.lemonilo.com is an alias for emailbout.com.
+emailbout.com has address 204.11.56.48
+Using domain server:
+Name: 8.8.8.8
+Address: 8.8.8.8#53
+Aliases: 
+
+trk.lemonilo.com is an alias for emailbout.com.
+emailbout.com has address 204.11.56.48
+Host emailbout.com not found: 2(SERVFAIL)
+Host emailbout.com not found: 2(SERVFAIL)

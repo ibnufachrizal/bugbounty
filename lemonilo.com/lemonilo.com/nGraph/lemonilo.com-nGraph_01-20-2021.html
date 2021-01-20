@@ -1,0 +1,117 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.css" type="text/css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis-network.min.js"> </script>
+<center>
+<h1><script>document.getElementsByTagName("center")[0].remove()</script></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+
+<style type="text/css">
+
+        #mynetwork {
+            width: 100%;
+            height: 100%;
+            background-color: #2d2e2e;
+            border: 1px solid lightgray;
+            position: relative;
+            float: left;
+        }
+
+        
+
+        
+
+        
+</style>
+
+</head>
+
+<body>
+<div id = "mynetwork"></div>
+
+
+<script type="text/javascript">
+
+    // initialize global variables.
+    var edges;
+    var nodes;
+    var network; 
+    var container;
+    var options, data;
+
+    
+    // This method is responsible for drawing the graph, returns the drawn network
+    function drawGraph() {
+        var container = document.getElementById('mynetwork');
+        
+        
+
+        // parsing and collecting nodes and edges from the python
+        nodes = new vis.DataSet([{"color": "#162347", "font": {"color": "white"}, "group": "lemonilo.com", "id": "lemonilo.com", "label": "lemonilo.com", "labelHighlightBold": true, "shape": "dot"}, {"color": "#bf281d", "font": {"color": "white"}, "group": "35.190.64.223", "id": "35.190.64.223", "label": "35.190.64.223", "labelHighlightBold": true, "physics": true, "shape": "dot"}, {"color": "#828282", "font": {"color": "white"}, "group": "staging-new-m.lemonilo.com", "id": "staging-new-m.lemonilo.com", "label": "staging-new-m.lemonilo.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "staging-new-m.lemonilo.com"}, {"color": "#bf281d", "font": {"color": "white"}, "group": "74.119.118.149", "id": "74.119.118.149", "label": "74.119.118.149", "labelHighlightBold": true, "physics": true, "shape": "dot"}, {"color": "#828282", "font": {"color": "white"}, "group": "xdtzrx.lemonilo.com", "id": "xdtzrx.lemonilo.com", "label": "xdtzrx.lemonilo.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "xdtzrx.lemonilo.com"}, {"color": "#bf281d", "font": {"color": "white"}, "group": "104.22.24.230", "id": "104.22.24.230", "label": "104.22.24.230", "labelHighlightBold": true, "physics": true, "shape": "dot"}, {"color": "#828282", "font": {"color": "white"}, "group": "alpha-adpanel.lemonilo.com", "id": "alpha-adpanel.lemonilo.com", "label": "alpha-adpanel.lemonilo.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "alpha-adpanel.lemonilo.com"}, {"color": "#828282", "font": {"color": "white"}, "group": "alpha-api-push.lemonilo.com", "id": "alpha-api-push.lemonilo.com", "label": "alpha-api-push.lemonilo.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "alpha-api-push.lemonilo.com"}, {"color": "#828282", "font": {"color": "white"}, "group": "api.lemonilo.com", "id": "api.lemonilo.com", "label": "api.lemonilo.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "api.lemonilo.com"}, {"color": "#828282", "font": {"color": "white"}, "group": "api-push.lemonilo.com", "id": "api-push.lemonilo.com", "label": "api-push.lemonilo.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "api-push.lemonilo.com"}, {"color": "#828282", "font": {"color": "white"}, "group": "metabase.lemonilo.com", "id": "metabase.lemonilo.com", "label": "metabase.lemonilo.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "metabase.lemonilo.com"}, {"color": "#828282", "font": {"color": "white"}, "group": "staging-adpanel.lemonilo.com", "id": "staging-adpanel.lemonilo.com", "label": "staging-adpanel.lemonilo.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "staging-adpanel.lemonilo.com"}, {"color": "#828282", "font": {"color": "white"}, "group": "staging-api-email.lemonilo.com", "id": "staging-api-email.lemonilo.com", "label": "staging-api-email.lemonilo.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "staging-api-email.lemonilo.com"}, {"color": "#828282", "font": {"color": "white"}, "group": "us.lemonilo.com", "id": "us.lemonilo.com", "label": "us.lemonilo.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "us.lemonilo.com"}, {"color": "#828282", "font": {"color": "white"}, "group": "wiranilo.lemonilo.com", "id": "wiranilo.lemonilo.com", "label": "wiranilo.lemonilo.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "wiranilo.lemonilo.com"}, {"color": "#bf281d", "font": {"color": "white"}, "group": "35.227.200.92", "id": "35.227.200.92", "label": "35.227.200.92", "labelHighlightBold": true, "physics": true, "shape": "dot"}, {"color": "#828282", "font": {"color": "white"}, "group": "staging-new.lemonilo.com", "id": "staging-new.lemonilo.com", "label": "staging-new.lemonilo.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "staging-new.lemonilo.com"}, {"color": "#bf281d", "font": {"color": "white"}, "group": "104.22.25.230", "id": "104.22.25.230", "label": "104.22.25.230", "labelHighlightBold": true, "physics": true, "shape": "dot"}, {"color": "#828282", "font": {"color": "white"}, "group": "adpanel.lemonilo.com", "id": "adpanel.lemonilo.com", "label": "adpanel.lemonilo.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "adpanel.lemonilo.com"}, {"color": "#828282", "font": {"color": "white"}, "group": "api-email.lemonilo.com", "id": "api-email.lemonilo.com", "label": "api-email.lemonilo.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "api-email.lemonilo.com"}, {"color": "#828282", "font": {"color": "white"}, "group": "app.lemonilo.com", "id": "app.lemonilo.com", "label": "app.lemonilo.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "app.lemonilo.com"}, {"color": "#828282", "font": {"color": "white"}, "group": "banggakansehatmu.lemonilo.com", "id": "banggakansehatmu.lemonilo.com", "label": "banggakansehatmu.lemonilo.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "banggakansehatmu.lemonilo.com"}, {"color": "#828282", "font": {"color": "white"}, "group": "career.lemonilo.com", "id": "career.lemonilo.com", "label": "career.lemonilo.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "career.lemonilo.com"}, {"color": "#828282", "font": {"color": "white"}, "group": "m.lemonilo.com", "id": "m.lemonilo.com", "label": "m.lemonilo.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "m.lemonilo.com"}, {"color": "#bf281d", "font": {"color": "white"}, "group": "172.217.9.179", "id": "172.217.9.179", "label": "172.217.9.179", "labelHighlightBold": true, "physics": true, "shape": "dot"}, {"color": "#828282", "font": {"color": "white"}, "group": "a-banggakansehatmu.lemonilo.com", "id": "a-banggakansehatmu.lemonilo.com", "label": "a-banggakansehatmu.lemonilo.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "a-banggakansehatmu.lemonilo.com"}, {"color": "#828282", "font": {"color": "white"}, "group": "d-banggakansehatmu.lemonilo.com", "id": "d-banggakansehatmu.lemonilo.com", "label": "d-banggakansehatmu.lemonilo.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "d-banggakansehatmu.lemonilo.com"}, {"color": "#828282", "font": {"color": "white"}, "group": "d-wiranilo.lemonilo.com", "id": "d-wiranilo.lemonilo.com", "label": "d-wiranilo.lemonilo.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "d-wiranilo.lemonilo.com"}, {"color": "#828282", "font": {"color": "white"}, "group": "m-banggakansehatmu.lemonilo.com", "id": "m-banggakansehatmu.lemonilo.com", "label": "m-banggakansehatmu.lemonilo.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "m-banggakansehatmu.lemonilo.com"}, {"color": "#828282", "font": {"color": "white"}, "group": "m-wiranilo.lemonilo.com", "id": "m-wiranilo.lemonilo.com", "label": "m-wiranilo.lemonilo.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "m-wiranilo.lemonilo.com"}, {"color": "#bf281d", "font": {"color": "white"}, "group": "34.95.104.61", "id": "34.95.104.61", "label": "34.95.104.61", "labelHighlightBold": true, "physics": true, "shape": "dot"}, {"color": "#828282", "font": {"color": "white"}, "group": "staging-new-adpanel.lemonilo.com", "id": "staging-new-adpanel.lemonilo.com", "label": "staging-new-adpanel.lemonilo.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "staging-new-adpanel.lemonilo.com"}, {"color": "#bf281d", "font": {"color": "white"}, "group": "34.98.78.147", "id": "34.98.78.147", "label": "34.98.78.147", "labelHighlightBold": true, "physics": true, "shape": "dot"}, {"color": "#828282", "font": {"color": "white"}, "group": "staging-cron.lemonilo.com", "id": "staging-cron.lemonilo.com", "label": "staging-cron.lemonilo.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "staging-cron.lemonilo.com"}, {"color": "#bf281d", "font": {"color": "white"}, "group": "173.201.193.133", "id": "173.201.193.133", "label": "173.201.193.133", "labelHighlightBold": true, "physics": true, "shape": "dot"}, {"color": "#828282", "font": {"color": "white"}, "group": "email.lemonilo.com", "id": "email.lemonilo.com", "label": "email.lemonilo.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "email.lemonilo.com"}, {"color": "#bf281d", "font": {"color": "white"}, "group": "172.67.26.103", "id": "172.67.26.103", "label": "172.67.26.103", "labelHighlightBold": true, "physics": true, "shape": "dot"}, {"color": "#828282", "font": {"color": "white"}, "group": "alpha-web.lemonilo.com", "id": "alpha-web.lemonilo.com", "label": "alpha-web.lemonilo.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "alpha-web.lemonilo.com"}, {"color": "#828282", "font": {"color": "white"}, "group": "staging-api.lemonilo.com", "id": "staging-api.lemonilo.com", "label": "staging-api.lemonilo.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "staging-api.lemonilo.com"}, {"color": "#828282", "font": {"color": "white"}, "group": "staging-api-push.lemonilo.com", "id": "staging-api-push.lemonilo.com", "label": "staging-api-push.lemonilo.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "staging-api-push.lemonilo.com"}, {"color": "#828282", "font": {"color": "white"}, "group": "staging.lemonilo.com", "id": "staging.lemonilo.com", "label": "staging.lemonilo.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "staging.lemonilo.com"}, {"color": "#828282", "font": {"color": "white"}, "group": "staging-m.lemonilo.com", "id": "staging-m.lemonilo.com", "label": "staging-m.lemonilo.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "staging-m.lemonilo.com"}, {"color": "#828282", "font": {"color": "white"}, "group": "www.lemonilo.com", "id": "www.lemonilo.com", "label": "www.lemonilo.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "www.lemonilo.com"}, {"color": "#bf281d", "font": {"color": "white"}, "group": "3.218.135.46", "id": "3.218.135.46", "label": "3.218.135.46", "labelHighlightBold": true, "physics": true, "shape": "dot"}, {"color": "#828282", "font": {"color": "white"}, "group": "hello.lemonilo.com", "id": "hello.lemonilo.com", "label": "hello.lemonilo.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "hello.lemonilo.com"}, {"color": "#bf281d", "font": {"color": "white"}, "group": "143.204.166.94", "id": "143.204.166.94", "label": "143.204.166.94", "labelHighlightBold": true, "physics": true, "shape": "dot"}, {"color": "#828282", "font": {"color": "white"}, "group": "static.lemonilo.com", "id": "static.lemonilo.com", "label": "static.lemonilo.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "static.lemonilo.com"}, {"color": "#bf281d", "font": {"color": "white"}, "group": "204.11.56.48", "id": "204.11.56.48", "label": "204.11.56.48", "labelHighlightBold": true, "physics": true, "shape": "dot"}, {"color": "#828282", "font": {"color": "white"}, "group": "trk.lemonilo.com", "id": "trk.lemonilo.com", "label": "trk.lemonilo.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "trk.lemonilo.com"}]);
+        edges = new vis.DataSet([{"arrowStrikethrough": true, "from": "35.190.64.223", "title": "lemonilo.com", "to": "lemonilo.com", "width": 3}, {"from": "staging-new-m.lemonilo.com", "title": "35.190.64.223", "to": "35.190.64.223"}, {"arrowStrikethrough": true, "from": "74.119.118.149", "title": "lemonilo.com", "to": "lemonilo.com", "width": 3}, {"from": "xdtzrx.lemonilo.com", "title": "74.119.118.149", "to": "74.119.118.149"}, {"arrowStrikethrough": true, "from": "104.22.24.230", "title": "lemonilo.com", "to": "lemonilo.com", "width": 3}, {"from": "alpha-adpanel.lemonilo.com", "title": "104.22.24.230", "to": "104.22.24.230"}, {"from": "alpha-api-push.lemonilo.com", "title": "104.22.24.230", "to": "104.22.24.230"}, {"from": "api.lemonilo.com", "title": "104.22.24.230", "to": "104.22.24.230"}, {"from": "api-push.lemonilo.com", "title": "104.22.24.230", "to": "104.22.24.230"}, {"from": "metabase.lemonilo.com", "title": "104.22.24.230", "to": "104.22.24.230"}, {"from": "staging-adpanel.lemonilo.com", "title": "104.22.24.230", "to": "104.22.24.230"}, {"from": "staging-api-email.lemonilo.com", "title": "104.22.24.230", "to": "104.22.24.230"}, {"from": "us.lemonilo.com", "title": "104.22.24.230", "to": "104.22.24.230"}, {"from": "wiranilo.lemonilo.com", "title": "104.22.24.230", "to": "104.22.24.230"}, {"arrowStrikethrough": true, "from": "35.227.200.92", "title": "lemonilo.com", "to": "lemonilo.com", "width": 3}, {"from": "staging-new.lemonilo.com", "title": "35.227.200.92", "to": "35.227.200.92"}, {"arrowStrikethrough": true, "from": "104.22.25.230", "title": "lemonilo.com", "to": "lemonilo.com", "width": 3}, {"from": "adpanel.lemonilo.com", "title": "104.22.25.230", "to": "104.22.25.230"}, {"from": "api-email.lemonilo.com", "title": "104.22.25.230", "to": "104.22.25.230"}, {"from": "app.lemonilo.com", "title": "104.22.25.230", "to": "104.22.25.230"}, {"from": "banggakansehatmu.lemonilo.com", "title": "104.22.25.230", "to": "104.22.25.230"}, {"from": "career.lemonilo.com", "title": "104.22.25.230", "to": "104.22.25.230"}, {"from": "m.lemonilo.com", "title": "104.22.25.230", "to": "104.22.25.230"}, {"arrowStrikethrough": true, "from": "172.217.9.179", "title": "lemonilo.com", "to": "lemonilo.com", "width": 3}, {"from": "a-banggakansehatmu.lemonilo.com", "title": "172.217.9.179", "to": "172.217.9.179"}, {"from": "d-banggakansehatmu.lemonilo.com", "title": "172.217.9.179", "to": "172.217.9.179"}, {"from": "d-wiranilo.lemonilo.com", "title": "172.217.9.179", "to": "172.217.9.179"}, {"from": "m-banggakansehatmu.lemonilo.com", "title": "172.217.9.179", "to": "172.217.9.179"}, {"from": "m-wiranilo.lemonilo.com", "title": "172.217.9.179", "to": "172.217.9.179"}, {"arrowStrikethrough": true, "from": "34.95.104.61", "title": "lemonilo.com", "to": "lemonilo.com", "width": 3}, {"from": "staging-new-adpanel.lemonilo.com", "title": "34.95.104.61", "to": "34.95.104.61"}, {"arrowStrikethrough": true, "from": "34.98.78.147", "title": "lemonilo.com", "to": "lemonilo.com", "width": 3}, {"from": "staging-cron.lemonilo.com", "title": "34.98.78.147", "to": "34.98.78.147"}, {"arrowStrikethrough": true, "from": "173.201.193.133", "title": "lemonilo.com", "to": "lemonilo.com", "width": 3}, {"from": "email.lemonilo.com", "title": "173.201.193.133", "to": "173.201.193.133"}, {"arrowStrikethrough": true, "from": "172.67.26.103", "title": "lemonilo.com", "to": "lemonilo.com", "width": 3}, {"from": "alpha-web.lemonilo.com", "title": "172.67.26.103", "to": "172.67.26.103"}, {"from": "staging-api.lemonilo.com", "title": "172.67.26.103", "to": "172.67.26.103"}, {"from": "staging-api-push.lemonilo.com", "title": "172.67.26.103", "to": "172.67.26.103"}, {"from": "staging.lemonilo.com", "title": "172.67.26.103", "to": "172.67.26.103"}, {"from": "staging-m.lemonilo.com", "title": "172.67.26.103", "to": "172.67.26.103"}, {"from": "www.lemonilo.com", "title": "172.67.26.103", "to": "172.67.26.103"}, {"arrowStrikethrough": true, "from": "3.218.135.46", "title": "lemonilo.com", "to": "lemonilo.com", "width": 3}, {"from": "hello.lemonilo.com", "title": "3.218.135.46", "to": "3.218.135.46"}, {"arrowStrikethrough": true, "from": "143.204.166.94", "title": "lemonilo.com", "to": "lemonilo.com", "width": 3}, {"from": "static.lemonilo.com", "title": "143.204.166.94", "to": "143.204.166.94"}, {"arrowStrikethrough": true, "from": "204.11.56.48", "title": "lemonilo.com", "to": "lemonilo.com", "width": 3}, {"from": "trk.lemonilo.com", "title": "204.11.56.48", "to": "204.11.56.48"}]);
+
+        // adding nodes and edges to the graph
+        data = {nodes: nodes, edges: edges};
+
+        var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": false,
+            "type": "continuous"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "forceAtlas2Based": {
+            "avoidOverlap": 5.0,
+            "centralGravity": 0.01,
+            "damping": 2.0,
+            "gravitationalConstant": -500,
+            "springConstant": 0.08,
+            "springLength": 100
+        },
+        "solver": "forceAtlas2Based",
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+        
+        
+
+        
+
+        network = new vis.Network(container, data, options);
+
+        
+
+
+        
+
+        return network;
+
+    }
+
+    drawGraph();
+
+</script>
+</body>
+</html>
