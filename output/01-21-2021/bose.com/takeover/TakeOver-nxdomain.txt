@@ -1,0 +1,14 @@
+ccrds.bose.com 
+m.customer.service.bose.com 
+m.customer.service.bose.com 
+ccrds.bose.com 
+m.customer.service.bose.com 
+ccrds.bose.com 
+res.customer.service.bose.com 
+res.customer.service.bose.com 
+retail-cache.bose.com 
+retail-cache.bose.com 
+retail-cache.bose.com 
+testandreview.bose.com 
+testandreview.bose.com 
+testandreview.bose.com 

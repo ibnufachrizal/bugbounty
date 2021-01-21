@@ -1,0 +1,648 @@
+192.243.229.233:
+ - r233.mail.bose.com
+13.249.76.8:
+ - cdn.ops.gds.bose.com
+ - public.ops.gds.bose.com
+13.249.76.87:
+ - fenestra-dev.fortis.bose.com
+168.63.176.92:
+ - aphkplmvault1.bose.com
+13.249.76.59:
+ - hearphones.bose.com
+ - www.hearphones.bose.com
+139.68.65.50:
+ - w4cprd.bose.com
+192.243.229.232:
+ - r232.mail.bose.com
+192.243.229.240:
+ - r240.order.confirmations.bose.com
+139.68.155.20:
+ - ftp.bose.com
+ - husky.bose.com
+13.249.76.57:
+ - bose.com.au
+ - bose.com.cn
+ - www.epp.bose.com
+ - www.owners.bose.com
+13.249.76.66:
+ - wiggumqa.bose.com
+ - wiggumqa.fortis.bose.com
+13.249.76.29:
+ - btu.bose.com
+13.89.60.189:
+ - artifactory.bose.com
+ - confluence.bose.com
+ - confluencestage.bose.com
+ - covid19.bose.com
+ - deviceidverify.bose.com
+ - eccqat.bose.com
+ - eco2jenkins.bose.com
+ - engcrudev.bose.com
+ - ghestg.bose.com
+ - jama.bose.com
+ - jira.bose.com
+ - jira-connect.bose.com
+ - jirapro.bose.com
+ - jirastage.bose.com
+ - jirawebdev.bose.com
+ - kwstage1.bose.com
+ - ops-003-author.bose.com
+ - rtf.bose.com
+ - rtfstg.bose.com
+ - sapmobile.bose.com
+ - sapt3pqa.bose.com
+ - svn.bose.com
+ - test.ar.bose.com
+ - testrail.bose.com
+ - usvacijenkins.bose.com
+ - usvaeccqci.bose.com
+ - usvaepqci.bose.com
+ - usva-gheprod01.bose.com
+ - usva-ghestg01.bose.com
+ - usvanetbrainapp.bose.com
+ - usvaotgauto.bose.com
+ - usvaotgjenkins.bose.com
+ - usvaprojenkins.bose.com
+ - wcawsmig.bose.com
+ - wcq11.bose.com
+ - wcquality.bose.com
+ - wdpecc.bose.com
+ - wiki.bose.com
+ - windchill.bose.com
+13.249.76.3:
+ - res.mail.bose.com
+205.251.197.213:
+ - nebula-ns3.bose.com
+13.249.76.36:
+ - asiapacific.bose.com
+ - global.bose.com
+ - pro.bose.com
+ - retail.bose.com
+13.249.76.45:
+ - portal.gdam.bose.com
+13.249.76.90:
+ - assets.bose.com
+ - my.lt01.bose.com
+13.249.76.54:
+ - filestore.bose.com
+139.68.146.22:
+ - bosemx03.bose.com
+64.222.139.39:
+ - musiciansupport.bose.com
+139.68.146.21:
+ - bosemx02.bose.com
+13.249.76.61:
+ - development.pinpoint.bose.com
+ - pinpoint.bose.com
+ - www.pinpoint.bose.com
+139.68.0.221:
+ - usma-dce-rad-01.bose.com
+10.105.21.25:
+ - nebula-bose-proxy.gd.bose.com
+ - trusted-prod02-nebula.gd.bose.com
+205.251.199.221:
+ - nebula-ns4.bose.com
+139.68.146.20:
+ - bosemx01.bose.com
+13.249.76.52:
+ - accommodations.bose.com
+ - assets.ar.bose.com
+13.249.76.24:
+ - communitystage.bose.com
+18.210.119.32:
+ - showroom.bose.com
+13.249.76.23:
+ - pages.em.bose.com
+52.162.111.96:
+ - enterpriseenrollment.bose.com
+10.105.4.168:
+ - bamboo.gd.bose.com
+13.249.76.30:
+ - rt.bose.com
+139.68.66.10:
+ - remote.bose.com
+ - remote-us-2.bose.com
+10.106.67.187:
+ - internal.gds.bose.com
+ - internal.prod.gds.bose.com
+13.249.76.20:
+ - marge-int-001.fortis.bose.com
+ - streamingint.bose.com
+139.68.155.200:
+ - portal.bose.com
+52.2.141.183:
+ - openid.bose.com
+18.232.239.72:
+ - adobeprod-w.bose.com
+44.239.198.71:
+ - m.communications.bose.com
+ - m.order.confirmations.bose.com
+ - m.order.status.bose.com
+ - m.product.support.bose.com
+ - t.communications.bose.com
+ - t.order.confirmations.bose.com
+ - t.order.status.bose.com
+ - t.product.support.bose.com
+13.225.53.8:
+ - cdn.gds.bose.com
+ - cdn.prod.gds.bose.com
+ - my.int02.bose.com
+ - public.gds.bose.com
+ - public.prod.gds.bose.com
+210.73.204.246:
+ - pcp.bose.com
+210.73.204.245:
+ - remote-cn-1.bose.com
+10.105.18.138:
+ - jira.gd.bose.com
+91.102.208.110:
+ - eusfbap.bose.com
+3.93.30.66:
+ - refer.bose.com
+108.128.89.33:
+ - external.gds.bose.com
+ - external.prod.gds.bose.com
+18.205.61.61:
+ - displays.bose.com
+ - qr.bose.com
+210.73.204.242:
+ - remote-cn-sh.bose.com
+52.217.90.139:
+ - playlist-generator.bose.com
+ - playlist-generator.fortis.bose.com
+ - playlist-generator-int.fortis.bose.com
+10.173.201.85:
+ - gitlab.fortis.bose.com
+139.68.179.76:
+ - sso1.bose.com
+3.210.24.84:
+ - legacy-proxy.gd.bose.com
+ - marketing.gd.bose.com
+ - serviceops.gd.bose.com
+10.105.17.124:
+ - jenkins.gd.bose.com
+ - rancher.gd.bose.com
+13.225.53.2:
+ - fenestra.fortis.bose.com
+10.141.89.22:
+ - cc-rds.bose.com
+139.68.179.84:
+ - w4cdev.bose.com
+3.248.145.140:
+ - nebula.int02.bose.com
+68.232.199.198:
+ - mta.service.bose.com
+139.68.179.83:
+ - usma-expedge.bose.com
+ - USMA-EXPEDGE.bose.com
+139.68.179.74:
+ - sso.bose.com
+54.82.146.227:
+ - soundsanctuary-staging.bose.com
+139.68.179.29:
+ - dealer-pp.bose.com
+139.68.179.82:
+ - usmada2.bose.com
+139.68.179.73:
+ - reg.bose.com
+192.243.228.1:
+ - mail.bose.com
+ - order.confirmations.bose.com
+54.210.203.57:
+ - marge-qa-001-oauth.fortis.bose.com
+139.68.179.19:
+ - enroll.bose.com
+139.68.179.81:
+ - usmada1.bose.com
+139.68.179.36:
+ - ucphone-proxy.bose.com
+139.68.179.72:
+ - reg.partners.bose.com
+54.210.97.156:
+ - streamingltoauth.fortis.bose.com
+139.68.179.71:
+ - mipm.bose.com
+139.68.179.16:
+ - t3p.bose.com
+23.96.96.142:
+ - remember.bose.com
+205.251.193.174:
+ - nebula-ns1.bose.com
+139.68.179.70:
+ - mip.bose.com
+52.208.178.153:
+ - nebula.bose.com
+ - nebula.prod02.bose.com
+68.232.196.117:
+ - mta.ic.bose.com
+3.213.28.106:
+ - bosecorp-drdweb.bose.com
+139.68.65.5:
+ - bmail.bose.com
+10.105.25.95:
+ - prod-002-author.gd.bose.com
+52.17.165.192:
+ - nebula.stage01.bose.com
+52.112.65.78:
+ - lyncdiscover.bose.com
+40.97.221.120:
+ - autodiscover.bose.com
+139.68.179.22:
+ - tmdmcrt.bose.com
+64.74.101.66:
+ - share.bose.com
+205.251.194.163:
+ - nebula-ns2.bose.com
+23.30.150.179:
+ - midm.bose.com
+139.68.179.8:
+ - mgp.bose.com
+66.70.104.109:
+ - acoustimass.bose.com
+23.30.150.169:
+ - tmdm.bose.com
+13.225.53.119:
+ - test.assets.ar.bose.com
+110.145.187.194:
+ - remote-aus.bose.com
+139.68.179.21:
+ - omnidevclient.bose.com
+34.242.20.119:
+ - nebula.dev02.bose.com
+139.68.179.12:
+ - mppc.bose.com
+23.30.150.187:
+ - mpb.bose.com
+139.68.179.7:
+ - mgd.bose.com
+54.186.179.158:
+ - beta.bose.com
+54.173.222.102:
+ - proedu.bose.com
+139.68.179.11:
+ - mpqc.bose.com
+139.68.179.6:
+ - mpp.bose.com
+23.30.150.168:
+ - mid.bose.com
+23.30.150.186:
+ - mgb.bose.com
+52.71.133.195:
+ - jdm.bose.com
+10.173.3.185:
+ - internal-chef.fortis.bose.com
+66.231.94.105:
+ - click.ic.bose.com
+ - click.service.bose.com
+104.18.13.107:
+ - app.bose.com
+18.234.32.150:
+ - status.developer.bose.com
+139.68.179.5:
+ - mpq.bose.com
+139.68.179.10:
+ - mpdc.bose.com
+13.225.53.98:
+ - downloads.bose.com
+34.210.168.105:
+ - m.mail.bose.com
+ - m.mail.bose.com.au
+ - t.mail.bose.com
+ - t.mail.bose.com.au
+122.144.214.113:
+ - shanghai-vpn.bose.com
+13.225.53.116:
+ - reseller.bose.com
+139.68.179.4:
+ - mpd.bose.com
+23.30.150.166:
+ - mpbc.bose.com
+34.206.193.28:
+ - jigd.bose.com
+ - jigds.bose.com
+ - jipr.bose.com
+ - jiprs.bose.com
+23.30.150.175:
+ - jamastg.bose.com
+23.185.0.1:
+ - dev.devportal.bose.com
+13.225.53.87:
+ - streamingqaoauth.bose.com
+ - streamingqaoauth.fortis.bose.com
+13.249.64.176:
+ - displays-sbx.bose.com
+23.185.0.2:
+ - developer.bose.com
+23.30.150.183:
+ - dealer-aqa.bose.com
+13.225.53.96:
+ - bose-updater-090718-beta.fortis.bose.com
+23.30.150.173:
+ - wcsb2.bose.com
+23.185.0.3:
+ - test.devportal.bose.com
+13.225.53.114:
+ - static.bose.com
+13.225.53.123:
+ - rt-dev.bose.com
+13.225.53.68:
+ - my.dev02.bose.com
+23.30.150.164:
+ - mrb.bose.com
+23.30.150.182:
+ - dealer-qat.bose.com
+143.204.166.104:
+ - bose-updater-buds-atp.fortis.bose.com
+23.30.150.163:
+ - vadnlbp.bose.com
+23.30.150.172:
+ - tenroll.bose.com
+139.68.155.155:
+ - remote-us.bose.com
+13.225.53.85:
+ - marge-qa-001.bose.com
+ - marge-qa-001.fortis.bose.com
+13.225.53.49:
+ - downloads.gd.bose.com
+23.30.150.181:
+ - dealer-dev.bose.com
+52.175.35.121:
+ - aphkplmrepvlt2.bose.com
+143.204.166.111:
+ - build.bose.com
+ - careers.bose.com
+ - professional.bose.com
+ - www.build.bose.com
+139.68.146.173:
+ - qpm.bose.com
+13.225.53.48:
+ - products.bose.com
+13.225.53.75:
+ - my.stage01.bose.com
+23.30.150.180:
+ - miqm.bose.com
+23.30.150.171:
+ - miq.bose.com
+13.225.53.66:
+ - downloads-dev.bose.com
+13.225.53.84:
+ - auth.bose.com
+13.225.53.112:
+ - asean.bose.com
+13.225.53.74:
+ - streamingqa.bose.com
+ - streamingqa.fortis.bose.com
+13.225.53.56:
+ - my.ops01.bose.com
+199.60.103.31:
+ - developers-email.bose.com
+ - developers-info.bose.com
+13.225.53.37:
+ - ventures.bose.com
+13.249.76.119:
+ - downloads-test.bose.com
+13.249.76.109:
+ - www.marketing.bose.com
+34.237.77.131:
+ - sftp.bose.com
+13.225.53.100:
+ - res.communications.bose.com
+ - res.order.confirmations.bose.com
+ - res.order.status.bose.com
+ - res.product.support.bose.com
+61.8.14.195:
+ - remote-au.bose.com
+54.208.184.60:
+ - sandbox.fortis.bose.com
+10.173.204.111:
+ - rundeck.fortis.bose.com
+13.249.76.108:
+ - res.mail.bose.com.au
+91.102.208.46:
+ - jds.bose.com
+13.249.64.106:
+ - go.bose.com
+99.81.133.96:
+ - external.dev.gds.bose.com
+13.225.53.17:
+ - bose-updater-112118-beta.fortis.bose.com
+13.225.53.52:
+ - staging.pinpoint.bose.com
+52.19.109.143:
+ - api-s.bose.com
+ - s.bose.com
+91.102.208.81:
+ - remote-eu.bose.com
+13.249.76.125:
+ - my.bose.com
+ - my.prod02.bose.com
+91.102.208.45:
+ - jss.bose.com
+13.225.53.43:
+ - downloads-beta.bose.com
+70.32.94.139:
+ - automotive.bose.com
+13.225.53.51:
+ - streamingoauth.bose.com
+ - streamingoauth.fortis.bose.com
+ - worldwide.bose.com
+217.195.115.61:
+ - lumines.bose.com
+13.249.76.115:
+ - connected-displays-data-collection.bose.com
+139.68.146.7:
+ - smtpgw01.bose.com
+13.225.53.50:
+ - cdn.dev.gds.bose.com
+ - public.dev.gds.bose.com
+34.252.139.152:
+ - nebula.lt01.bose.com
+13.249.76.114:
+ - ar.bose.com
+13.249.76.113:
+ - emea.bose.com
+ - www.bose.com.au
+139.68.134.1:
+ - bose-cp-vip2.bose.com
+139.68.155.100:
+ - lookingglass.bose.com
+ - tesseract.bose.com
+202.64.70.123:
+ - remote-cn-hk.bose.com
+10.106.34.235:
+ - internal.dev.gds.bose.com
+91.102.208.8:
+ - euldapproxy01.bose.com
+13.249.76.111:
+ - www.bose.com
+210.81.22.157:
+ - remote-jp-bakk.bose.com
+ - remote-jp-bkk.bose.com
+13.249.76.101:
+ - community.bose.com
+139.68.155.99:
+ - wardrobe.bose.com
+13.249.76.100:
+ - connected-displays-geolocation.bose.com
+ - employeepurchase.bose.com
+ - streaming.bose.com
+ - streaming.fortis.bose.com
+139.68.155.98:
+ - stargate.bose.com
+210.81.22.155:
+ - remote-jp.bose.com
+34.251.24.54:
+ - external.stage.gds.bose.com
+54.77.162.118:
+ - kb-pro.bose.com
+ - www.pro.bose.com
+52.112.67.51:
+ - sip.bose.com
+104.47.58.110:
+ - bose-com.mail.protection.outlook.com.
+52.96.166.226:
+ - webmail.bose.com
+143.204.166.96:
+ - cdn.stage.gds.bose.com
+ - public.stage.gds.bose.com
+54.72.124.16:
+ - nebula.ops01.bose.com
+52.36.232.38:
+ - target.bose.com
+52.20.195.32:
+ - social.link.pro.bose.com
+143.204.166.3:
+ - rt-qa.bose.com
+139.68.154.23:
+ - usfmvg2.bose.com
+143.204.166.75:
+ - streamingintoauth.bose.com
+ - streamingintoauth.fortis.bose.com
+199.255.147.24:
+ - proforum.bose.com
+143.204.166.56:
+ - wiggum.bose.com
+139.68.65.49:
+ - w4cqat.bose.com
+139.68.154.22:
+ - usfmvg1.bose.com
+54.88.88.52:
+ - smtpin.fortis.bose.com
+ - smtpout.fortis.bose.com
+52.56.76.70:
+ - retailcms.bose.com
+203.193.62.229:
+ - remote-hk.bose.com
+54.85.55.188:
+ - soundsanctuary.bose.com
+192.243.229.239:
+ - r239.mail.bose.com
+143.204.166.73:
+ - documents.bose.com
+162.159.128.79:
+ - bosedevs.bose.com
+13.75.91.102:
+ - aphkplmrepvlt1.bose.com
+143.204.166.81:
+ - user-x.bose.com
+35.164.0.240:
+ - testing.bose.com
+202.56.93.60:
+ - remote-my.bose.com
+192.243.229.238:
+ - r238.mail.bose.com
+143.204.166.18:
+ - bosearapps.bose.com
+ - developers.bose.com
+ - owners.bose.com
+104.130.72.209:
+ - globalpressroom.bose.com
+127.0.0.1:
+ - global-bose-com-stage-001.gd.bose.com
+ - pro-bose-com-stage-000.gd.bose.com
+ - reseller-bose-com-int-003.gd.bose.com
+ - www.bamboo.gd.bose.com
+ - www-bose-at-stage-001.gd.bose.com
+ - www-bose-ca-stage-000.gd.bose.com
+ - www-bose-ca-stage-001.gd.bose.com
+ - www-bose-co-jp-stage-000.gd.bose.com
+ - www-bose-co-jp-stage-001.gd.bose.com
+ - www-bose-com-stage-000.gd.bose.com
+ - www-bose-com-stage-001.gd.bose.com
+ - www-bose-co-stage-001.gd.bose.com
+ - www-bose-co-uk-stage-000.gd.bose.com
+ - www-bose-co-uk-stage-001.gd.bose.com
+ - www-bose-de-stage-001.gd.bose.com
+ - www-bose-es-stage-001.gd.bose.com
+ - www-bose-fr-stage-000.gd.bose.com
+ - www-bose-fr-stage-001.gd.bose.com
+ - www-bose-hk-stage-001.gd.bose.com
+ - www-bose-ie-stage-001.gd.bose.com
+ - www-bose-mx-stage-001.gd.bose.com
+ - www-bose-vn-stage-001.gd.bose.com
+139.68.146.59:
+ - usmamx02.bose.com
+192.243.229.237:
+ - r237.mail.bose.com
+143.204.166.52:
+ - ask.bose.com
+ - awms.bose.com
+ - bose.com
+ - dealer.bose.com
+ - epp.bose.com
+ - intranet.bose.com
+ - jobs.bose.com
+ - lifestyle.bose.com
+ - marketing.bose.com
+ - origin-marketing.bose.com
+ - origin-products.bose.com
+ - origin-www.bose.com
+ - qc2.bose.com
+ - qc3.bose.com
+ - qc.bose.com
+ - qualitysound.bose.com
+ - secure-order.bose.com
+ - serviceops.bose.com
+ - triport.bose.com
+ - updates.bose.com
+ - waveradio.bose.com
+ - wms.bose.com
+ - www.anrheadset.bose.com
+ - www.lifestyle.bose.com
+143.204.166.61:
+ - cischatbotimages.bose.com
+ - dev.assets.ar.bose.com
+ - wiggumint.bose.com
+ - wiggumint.fortis.bose.com
+139.68.146.58:
+ - bosemail.bose.com
+ - usmamx01.bose.com
+192.243.229.236:
+ - r236.mail.bose.com
+143.204.166.16:
+ - knowledgebase.bose.com
+ - m.bose.com
+ - pressroom.bose.com
+107.22.73.254:
+ - aspera.bose.com
+4.19.252.143:
+ - usmafm1.bose.com
+143.204.166.24:
+ - streamingstg.bose.com
+192.243.229.235:
+ - r235.mail.bose.com
+44.238.157.95:
+ - emetrics.bose.com
+ - metrics.bose.com
+10.106.49.65:
+ - internal.stage.gds.bose.com
+13.249.76.98:
+ - bose-downloads-sdk.fortis.bose.com
+139.68.115.10:
+ - remote-us-1.bose.com
+192.243.229.234:
+ - r234.mail.bose.com
+34.237.11.252:
+ - mi.bose.com
+217.195.114.210:
+ - brand.bose.com
