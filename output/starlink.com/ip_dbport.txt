@@ -1,0 +1,34 @@
+35.190.38.131 
+  - 43/tcp 9200/tcp 195/tcp 9100/tcp 8081/tcp 8090/tcp 1935/tcp 5672/tcp 443/tcp 80/tcp 1883/tcp 8086/tcp 83/tcp 8089/tcp 6379/tcp 5901/tcp 3389/tcp 5222/tcp 8080/tcp 
+104.47.66.10 
+  - 25/tcp 443/tcp 80/tcp 
+34.105.1.143 
+  - 443/tcp 
+40.97.120.232 
+  - 80/tcp 
+34.96.119.62 
+  - 9200/tcp 83/tcp 6379/tcp 5222/tcp 5900/tcp 443/tcp 80/tcp 195/tcp 5672/tcp 1883/tcp 8080/tcp 8081/tcp 1935/tcp 9100/tcp 8086/tcp 8089/tcp 8090/tcp 5901/tcp 84/tcp 
+173.201.193.5 
+  - 443/tcp 
+199.232.10.133 
+  - 80/tcp 443/tcp 
+34.107.225.161 
+  - 83/tcp 443/tcp 8080/tcp 80/tcp 5672/tcp 84/tcp 6379/tcp 1883/tcp 5222/tcp 1935/tcp 9200/tcp 8089/tcp 3389/tcp 5901/tcp 8086/tcp 195/tcp 
+34.120.197.106 
+  - 43/tcp 443/tcp 80/tcp 8080/tcp 5901/tcp 9100/tcp 5672/tcp 8090/tcp 3389/tcp 84/tcp 6379/tcp 8086/tcp 1883/tcp 5222/tcp 8081/tcp 1935/tcp 8089/tcp 9200/tcp 195/tcp 5900/tcp 
+173.201.192.129 
+  - 110/tcp 143/tcp 995/tcp 993/tcp 
+40.126.0.70 
+  - 443/tcp 80/tcp 
+34.120.255.244 
+  - 195/tcp 8089/tcp 8080/tcp 5222/tcp 6379/tcp 80/tcp 5672/tcp 8086/tcp 5901/tcp 9200/tcp 5900/tcp 443/tcp 83/tcp 84/tcp 8090/tcp 1935/tcp 43/tcp 9100/tcp 1883/tcp 8081/tcp 
+34.120.234.51 
+  - 6379/tcp 84/tcp 8081/tcp 443/tcp 80/tcp 5900/tcp 8086/tcp 83/tcp 43/tcp 8080/tcp 5672/tcp 5222/tcp 3389/tcp 1935/tcp 8090/tcp 9200/tcp 5901/tcp 
+173.201.193.148 
+  - 443/tcp 
+34.96.119.62 
+  - 9200/tcp 83/tcp 6379/tcp 5222/tcp 5900/tcp 443/tcp 80/tcp 195/tcp 5672/tcp 1883/tcp 8080/tcp 8081/tcp 1935/tcp 9100/tcp 8086/tcp 8089/tcp 8090/tcp 5901/tcp 84/tcp 
+68.178.252.5 
+  - 443/tcp 
+97.74.135.143 
+  - 993/tcp 995/tcp 143/tcp 110/tcp 

@@ -1,0 +1,117 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.css" type="text/css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis-network.min.js"> </script>
+<center>
+<h1><script>document.getElementsByTagName("center")[0].remove()</script></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+
+<style type="text/css">
+
+        #mynetwork {
+            width: 100%;
+            height: 100%;
+            background-color: #2d2e2e;
+            border: 1px solid lightgray;
+            position: relative;
+            float: left;
+        }
+
+        
+
+        
+
+        
+</style>
+
+</head>
+
+<body>
+<div id = "mynetwork"></div>
+
+
+<script type="text/javascript">
+
+    // initialize global variables.
+    var edges;
+    var nodes;
+    var network; 
+    var container;
+    var options, data;
+
+    
+    // This method is responsible for drawing the graph, returns the drawn network
+    function drawGraph() {
+        var container = document.getElementById('mynetwork');
+        
+        
+
+        // parsing and collecting nodes and edges from the python
+        nodes = new vis.DataSet([{"color": "#162347", "font": {"color": "white"}, "group": "starlink.com", "id": "starlink.com", "label": "starlink.com", "labelHighlightBold": true, "shape": "dot"}, {"color": "#bf281d", "font": {"color": "white"}, "group": "40.126.0.70", "id": "40.126.0.70", "label": "40.126.0.70", "labelHighlightBold": true, "physics": true, "shape": "dot"}, {"color": "#828282", "font": {"color": "white"}, "group": "msoid.starlink.com", "id": "msoid.starlink.com", "label": "msoid.starlink.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "msoid.starlink.com"}, {"color": "#bf281d", "font": {"color": "white"}, "group": "34.96.119.62", "id": "34.96.119.62", "label": "34.96.119.62", "labelHighlightBold": true, "physics": true, "shape": "dot"}, {"color": "#828282", "font": {"color": "white"}, "group": "api2.staging.starlink.com", "id": "api2.staging.starlink.com", "label": "api2.staging.starlink.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "api2.staging.starlink.com"}, {"color": "#bf281d", "font": {"color": "white"}, "group": "34.105.1.143", "id": "34.105.1.143", "label": "34.105.1.143", "labelHighlightBold": true, "physics": true, "shape": "dot"}, {"color": "#828282", "font": {"color": "white"}, "group": "connect.starlink.com", "id": "connect.starlink.com", "label": "connect.starlink.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "connect.starlink.com"}, {"color": "#bf281d", "font": {"color": "white"}, "group": "34.107.225.161", "id": "34.107.225.161", "label": "34.107.225.161", "labelHighlightBold": true, "physics": true, "shape": "dot"}, {"color": "#828282", "font": {"color": "white"}, "group": "admin.staging.starlink.com", "id": "admin.staging.starlink.com", "label": "admin.staging.starlink.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "admin.staging.starlink.com"}, {"color": "#bf281d", "font": {"color": "white"}, "group": "35.233.208.20", "id": "35.233.208.20", "label": "35.233.208.20", "labelHighlightBold": true, "physics": true, "shape": "dot"}, {"color": "#828282", "font": {"color": "white"}, "group": "connect.staging.starlink.com", "id": "connect.staging.starlink.com", "label": "connect.staging.starlink.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "connect.staging.starlink.com"}, {"color": "#bf281d", "font": {"color": "white"}, "group": "104.47.66.10", "id": "104.47.66.10", "label": "104.47.66.10", "labelHighlightBold": true, "physics": true, "shape": "dot"}, {"color": "#828282", "font": {"color": "white"}, "group": "starlink-com.mail.protection.outlook.com.", "id": "starlink-com.mail.protection.outlook.com.", "label": "starlink-com.mail.protection.outlook.com.", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "starlink-com.mail.protection.outlook.com."}, {"color": "#bf281d", "font": {"color": "white"}, "group": "52.112.64.140", "id": "52.112.64.140", "label": "52.112.64.140", "labelHighlightBold": true, "physics": true, "shape": "dot"}, {"color": "#828282", "font": {"color": "white"}, "group": "sip.starlink.com", "id": "sip.starlink.com", "label": "sip.starlink.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "sip.starlink.com"}, {"color": "#bf281d", "font": {"color": "white"}, "group": "199.232.10.133", "id": "199.232.10.133", "label": "199.232.10.133", "labelHighlightBold": true, "physics": true, "shape": "dot"}, {"color": "#828282", "font": {"color": "white"}, "group": "api.starlink.com", "id": "api.starlink.com", "label": "api.starlink.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "api.starlink.com"}, {"color": "#828282", "font": {"color": "white"}, "group": "auth.starlink.com", "id": "auth.starlink.com", "label": "auth.starlink.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "auth.starlink.com"}, {"color": "#828282", "font": {"color": "white"}, "group": "shop.starlink.com", "id": "shop.starlink.com", "label": "shop.starlink.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "shop.starlink.com"}, {"color": "#828282", "font": {"color": "white"}, "group": "support.starlink.com", "id": "support.starlink.com", "label": "support.starlink.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "support.starlink.com"}, {"color": "#828282", "font": {"color": "white"}, "group": "www.starlink.com", "id": "www.starlink.com", "label": "www.starlink.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "www.starlink.com"}, {"color": "#bf281d", "font": {"color": "white"}, "group": "34.120.197.106", "id": "34.120.197.106", "label": "34.120.197.106", "labelHighlightBold": true, "physics": true, "shape": "dot"}, {"color": "#828282", "font": {"color": "white"}, "group": "api.payments.starlink.com", "id": "api.payments.starlink.com", "label": "api.payments.starlink.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "api.payments.starlink.com"}, {"color": "#bf281d", "font": {"color": "white"}, "group": "68.178.252.117", "id": "68.178.252.117", "label": "68.178.252.117", "labelHighlightBold": true, "physics": true, "shape": "dot"}, {"color": "#828282", "font": {"color": "white"}, "group": "imap.starlink.com", "id": "imap.starlink.com", "label": "imap.starlink.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "imap.starlink.com"}, {"color": "#bf281d", "font": {"color": "white"}, "group": "173.201.192.129", "id": "173.201.192.129", "label": "173.201.192.129", "labelHighlightBold": true, "physics": true, "shape": "dot"}, {"color": "#828282", "font": {"color": "white"}, "group": "mail.starlink.com", "id": "mail.starlink.com", "label": "mail.starlink.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "mail.starlink.com"}, {"color": "#828282", "font": {"color": "white"}, "group": "pop.starlink.com", "id": "pop.starlink.com", "label": "pop.starlink.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "pop.starlink.com"}, {"color": "#bf281d", "font": {"color": "white"}, "group": "173.201.192.133", "id": "173.201.192.133", "label": "173.201.192.133", "labelHighlightBold": true, "physics": true, "shape": "dot"}, {"color": "#828282", "font": {"color": "white"}, "group": "email.starlink.com", "id": "email.starlink.com", "label": "email.starlink.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "email.starlink.com"}, {"color": "#828282", "font": {"color": "white"}, "group": "e.starlink.com", "id": "e.starlink.com", "label": "e.starlink.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "e.starlink.com"}, {"color": "#828282", "font": {"color": "white"}, "group": "webmail.starlink.com", "id": "webmail.starlink.com", "label": "webmail.starlink.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "webmail.starlink.com"}, {"color": "#bf281d", "font": {"color": "white"}, "group": "52.112.65.78", "id": "52.112.65.78", "label": "52.112.65.78", "labelHighlightBold": true, "physics": true, "shape": "dot"}, {"color": "#828282", "font": {"color": "white"}, "group": "lyncdiscover.starlink.com", "id": "lyncdiscover.starlink.com", "label": "lyncdiscover.starlink.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "lyncdiscover.starlink.com"}, {"color": "#bf281d", "font": {"color": "white"}, "group": "34.120.234.51", "id": "34.120.234.51", "label": "34.120.234.51", "labelHighlightBold": true, "physics": true, "shape": "dot"}, {"color": "#828282", "font": {"color": "white"}, "group": "shop.staging.starlink.com", "id": "shop.staging.starlink.com", "label": "shop.staging.starlink.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "shop.staging.starlink.com"}, {"color": "#bf281d", "font": {"color": "white"}, "group": "151.101.66.133", "id": "151.101.66.133", "label": "151.101.66.133", "labelHighlightBold": true, "physics": true, "shape": "dot"}, {"color": "#828282", "font": {"color": "white"}, "group": "ftp.starlink.com", "id": "ftp.starlink.com", "label": "ftp.starlink.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "ftp.starlink.com"}, {"color": "#bf281d", "font": {"color": "white"}, "group": "173.201.193.5", "id": "173.201.193.5", "label": "173.201.193.5", "labelHighlightBold": true, "physics": true, "shape": "dot"}, {"color": "#828282", "font": {"color": "white"}, "group": "mobilemail.starlink.com", "id": "mobilemail.starlink.com", "label": "mobilemail.starlink.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "mobilemail.starlink.com"}, {"color": "#828282", "font": {"color": "white"}, "group": "pda.starlink.com", "id": "pda.starlink.com", "label": "pda.starlink.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "pda.starlink.com"}, {"color": "#bf281d", "font": {"color": "white"}, "group": "35.190.38.131", "id": "35.190.38.131", "label": "35.190.38.131", "labelHighlightBold": true, "physics": true, "shape": "dot"}, {"color": "#828282", "font": {"color": "white"}, "group": "api.payments-test.starlink.com", "id": "api.payments-test.starlink.com", "label": "api.payments-test.starlink.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "api.payments-test.starlink.com"}, {"color": "#bf281d", "font": {"color": "white"}, "group": "34.102.177.54", "id": "34.102.177.54", "label": "34.102.177.54", "labelHighlightBold": true, "physics": true, "shape": "dot"}, {"color": "#828282", "font": {"color": "white"}, "group": "api2.starlink.com", "id": "api2.starlink.com", "label": "api2.starlink.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "api2.starlink.com"}, {"color": "#bf281d", "font": {"color": "white"}, "group": "34.120.255.244", "id": "34.120.255.244", "label": "34.120.255.244", "labelHighlightBold": true, "physics": true, "shape": "dot"}, {"color": "#828282", "font": {"color": "white"}, "group": "dishy.starlink.com", "id": "dishy.starlink.com", "label": "dishy.starlink.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "dishy.starlink.com"}, {"color": "#828282", "font": {"color": "white"}, "group": "my.starlink.com", "id": "my.starlink.com", "label": "my.starlink.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "my.starlink.com"}, {"color": "#bf281d", "font": {"color": "white"}, "group": "34.102.189.86", "id": "34.102.189.86", "label": "34.102.189.86", "labelHighlightBold": true, "physics": true, "shape": "dot"}, {"color": "#828282", "font": {"color": "white"}, "group": "api.staging.starlink.com", "id": "api.staging.starlink.com", "label": "api.staging.starlink.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "api.staging.starlink.com"}, {"color": "#828282", "font": {"color": "white"}, "group": "auth.staging.starlink.com", "id": "auth.staging.starlink.com", "label": "auth.staging.starlink.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "auth.staging.starlink.com"}, {"color": "#828282", "font": {"color": "white"}, "group": "fulfillment.staging.starlink.com", "id": "fulfillment.staging.starlink.com", "label": "fulfillment.staging.starlink.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "fulfillment.staging.starlink.com"}, {"color": "#828282", "font": {"color": "white"}, "group": "staging.starlink.com", "id": "staging.starlink.com", "label": "staging.starlink.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "staging.starlink.com"}, {"color": "#828282", "font": {"color": "white"}, "group": "support-agent.staging.starlink.com", "id": "support-agent.staging.starlink.com", "label": "support-agent.staging.starlink.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "support-agent.staging.starlink.com"}, {"color": "#828282", "font": {"color": "white"}, "group": "support.staging.starlink.com", "id": "support.staging.starlink.com", "label": "support.staging.starlink.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "support.staging.starlink.com"}, {"color": "#bf281d", "font": {"color": "white"}, "group": "40.97.120.232", "id": "40.97.120.232", "label": "40.97.120.232", "labelHighlightBold": true, "physics": true, "shape": "dot"}, {"color": "#828282", "font": {"color": "white"}, "group": "autodiscover.starlink.com", "id": "autodiscover.starlink.com", "label": "autodiscover.starlink.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "autodiscover.starlink.com"}, {"color": "#bf281d", "font": {"color": "white"}, "group": "20.140.191.232", "id": "20.140.191.232", "label": "20.140.191.232", "labelHighlightBold": true, "physics": true, "shape": "dot"}, {"color": "#828282", "font": {"color": "white"}, "group": "wifi-update.starlink.com", "id": "wifi-update.starlink.com", "label": "wifi-update.starlink.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "wifi-update.starlink.com"}, {"color": "#bf281d", "font": {"color": "white"}, "group": "72.167.238.29", "id": "72.167.238.29", "label": "72.167.238.29", "labelHighlightBold": true, "physics": true, "shape": "dot"}, {"color": "#828282", "font": {"color": "white"}, "group": "smtp.starlink.com", "id": "smtp.starlink.com", "label": "smtp.starlink.com", "labelHighlightBold": true, "physics": true, "shape": "dot", "title": "smtp.starlink.com"}]);
+        edges = new vis.DataSet([{"arrowStrikethrough": true, "from": "40.126.0.70", "title": "starlink.com", "to": "starlink.com", "width": 3}, {"from": "msoid.starlink.com", "title": "40.126.0.70", "to": "40.126.0.70"}, {"arrowStrikethrough": true, "from": "34.96.119.62", "title": "starlink.com", "to": "starlink.com", "width": 3}, {"from": "api2.staging.starlink.com", "title": "34.96.119.62", "to": "34.96.119.62"}, {"arrowStrikethrough": true, "from": "34.105.1.143", "title": "starlink.com", "to": "starlink.com", "width": 3}, {"from": "connect.starlink.com", "title": "34.105.1.143", "to": "34.105.1.143"}, {"arrowStrikethrough": true, "from": "34.107.225.161", "title": "starlink.com", "to": "starlink.com", "width": 3}, {"from": "admin.staging.starlink.com", "title": "34.107.225.161", "to": "34.107.225.161"}, {"arrowStrikethrough": true, "from": "35.233.208.20", "title": "starlink.com", "to": "starlink.com", "width": 3}, {"from": "connect.staging.starlink.com", "title": "35.233.208.20", "to": "35.233.208.20"}, {"arrowStrikethrough": true, "from": "104.47.66.10", "title": "starlink.com", "to": "starlink.com", "width": 3}, {"from": "starlink-com.mail.protection.outlook.com.", "title": "104.47.66.10", "to": "104.47.66.10"}, {"arrowStrikethrough": true, "from": "52.112.64.140", "title": "starlink.com", "to": "starlink.com", "width": 3}, {"from": "sip.starlink.com", "title": "52.112.64.140", "to": "52.112.64.140"}, {"arrowStrikethrough": true, "from": "199.232.10.133", "title": "starlink.com", "to": "starlink.com", "width": 3}, {"from": "api.starlink.com", "title": "199.232.10.133", "to": "199.232.10.133"}, {"from": "auth.starlink.com", "title": "199.232.10.133", "to": "199.232.10.133"}, {"from": "shop.starlink.com", "title": "199.232.10.133", "to": "199.232.10.133"}, {"from": "support.starlink.com", "title": "199.232.10.133", "to": "199.232.10.133"}, {"from": "www.starlink.com", "title": "199.232.10.133", "to": "199.232.10.133"}, {"arrowStrikethrough": true, "from": "34.120.197.106", "title": "starlink.com", "to": "starlink.com", "width": 3}, {"from": "api.payments.starlink.com", "title": "34.120.197.106", "to": "34.120.197.106"}, {"arrowStrikethrough": true, "from": "68.178.252.117", "title": "starlink.com", "to": "starlink.com", "width": 3}, {"from": "imap.starlink.com", "title": "68.178.252.117", "to": "68.178.252.117"}, {"arrowStrikethrough": true, "from": "173.201.192.129", "title": "starlink.com", "to": "starlink.com", "width": 3}, {"from": "mail.starlink.com", "title": "173.201.192.129", "to": "173.201.192.129"}, {"from": "pop.starlink.com", "title": "173.201.192.129", "to": "173.201.192.129"}, {"arrowStrikethrough": true, "from": "173.201.192.133", "title": "starlink.com", "to": "starlink.com", "width": 3}, {"from": "email.starlink.com", "title": "173.201.192.133", "to": "173.201.192.133"}, {"from": "e.starlink.com", "title": "173.201.192.133", "to": "173.201.192.133"}, {"from": "webmail.starlink.com", "title": "173.201.192.133", "to": "173.201.192.133"}, {"arrowStrikethrough": true, "from": "52.112.65.78", "title": "starlink.com", "to": "starlink.com", "width": 3}, {"from": "lyncdiscover.starlink.com", "title": "52.112.65.78", "to": "52.112.65.78"}, {"arrowStrikethrough": true, "from": "34.120.234.51", "title": "starlink.com", "to": "starlink.com", "width": 3}, {"from": "shop.staging.starlink.com", "title": "34.120.234.51", "to": "34.120.234.51"}, {"arrowStrikethrough": true, "from": "151.101.66.133", "title": "starlink.com", "to": "starlink.com", "width": 3}, {"from": "ftp.starlink.com", "title": "151.101.66.133", "to": "151.101.66.133"}, {"arrowStrikethrough": true, "from": "173.201.193.5", "title": "starlink.com", "to": "starlink.com", "width": 3}, {"from": "mobilemail.starlink.com", "title": "173.201.193.5", "to": "173.201.193.5"}, {"from": "pda.starlink.com", "title": "173.201.193.5", "to": "173.201.193.5"}, {"arrowStrikethrough": true, "from": "35.190.38.131", "title": "starlink.com", "to": "starlink.com", "width": 3}, {"from": "api.payments-test.starlink.com", "title": "35.190.38.131", "to": "35.190.38.131"}, {"arrowStrikethrough": true, "from": "34.102.177.54", "title": "starlink.com", "to": "starlink.com", "width": 3}, {"from": "api2.starlink.com", "title": "34.102.177.54", "to": "34.102.177.54"}, {"arrowStrikethrough": true, "from": "34.120.255.244", "title": "starlink.com", "to": "starlink.com", "width": 3}, {"from": "dishy.starlink.com", "title": "34.120.255.244", "to": "34.120.255.244"}, {"from": "my.starlink.com", "title": "34.120.255.244", "to": "34.120.255.244"}, {"arrowStrikethrough": true, "from": "34.102.189.86", "title": "starlink.com", "to": "starlink.com", "width": 3}, {"from": "api.staging.starlink.com", "title": "34.102.189.86", "to": "34.102.189.86"}, {"from": "auth.staging.starlink.com", "title": "34.102.189.86", "to": "34.102.189.86"}, {"from": "fulfillment.staging.starlink.com", "title": "34.102.189.86", "to": "34.102.189.86"}, {"from": "staging.starlink.com", "title": "34.102.189.86", "to": "34.102.189.86"}, {"from": "support-agent.staging.starlink.com", "title": "34.102.189.86", "to": "34.102.189.86"}, {"from": "support.staging.starlink.com", "title": "34.102.189.86", "to": "34.102.189.86"}, {"arrowStrikethrough": true, "from": "40.97.120.232", "title": "starlink.com", "to": "starlink.com", "width": 3}, {"from": "autodiscover.starlink.com", "title": "40.97.120.232", "to": "40.97.120.232"}, {"arrowStrikethrough": true, "from": "20.140.191.232", "title": "starlink.com", "to": "starlink.com", "width": 3}, {"from": "wifi-update.starlink.com", "title": "20.140.191.232", "to": "20.140.191.232"}, {"arrowStrikethrough": true, "from": "72.167.238.29", "title": "starlink.com", "to": "starlink.com", "width": 3}, {"from": "smtp.starlink.com", "title": "72.167.238.29", "to": "72.167.238.29"}]);
+
+        // adding nodes and edges to the graph
+        data = {nodes: nodes, edges: edges};
+
+        var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": false,
+            "type": "continuous"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "forceAtlas2Based": {
+            "avoidOverlap": 5.0,
+            "centralGravity": 0.01,
+            "damping": 2.0,
+            "gravitationalConstant": -500,
+            "springConstant": 0.08,
+            "springLength": 100
+        },
+        "solver": "forceAtlas2Based",
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+        
+        
+
+        
+
+        network = new vis.Network(container, data, options);
+
+        
+
+
+        
+
+        return network;
+
+    }
+
+    drawGraph();
+
+</script>
+</body>
+</html>

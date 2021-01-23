@@ -1,0 +1,61 @@
+40.126.0.70:
+ - msoid.starlink.com
+34.96.119.62:
+ - api2.staging.starlink.com
+34.105.1.143:
+ - connect.starlink.com
+34.107.225.161:
+ - admin.staging.starlink.com
+35.233.208.20:
+ - connect.staging.starlink.com
+104.47.66.10:
+ - starlink-com.mail.protection.outlook.com.
+52.112.64.140:
+ - sip.starlink.com
+199.232.10.133:
+ - api.starlink.com
+ - auth.starlink.com
+ - shop.starlink.com
+ - support.starlink.com
+ - www.starlink.com
+34.120.197.106:
+ - api.payments.starlink.com
+68.178.252.117:
+ - imap.starlink.com
+173.201.192.129:
+ - mail.starlink.com
+ - pop.starlink.com
+173.201.192.133:
+ - email.starlink.com
+ - e.starlink.com
+ - webmail.starlink.com
+52.112.65.78:
+ - lyncdiscover.starlink.com
+34.120.234.51:
+ - shop.staging.starlink.com
+151.101.66.133:
+ - ftp.starlink.com
+ - starlink.com
+173.201.193.5:
+ - mobilemail.starlink.com
+ - pda.starlink.com
+35.190.38.131:
+ - api.payments-test.starlink.com
+34.102.177.54:
+ - api2.starlink.com
+34.120.255.244:
+ - dishy.starlink.com
+ - my.starlink.com
+34.102.189.86:
+ - api.staging.starlink.com
+ - auth.staging.starlink.com
+ - fulfillment.staging.starlink.com
+ - staging.starlink.com
+ - support-agent.staging.starlink.com
+ - support.staging.starlink.com
+40.97.120.232:
+ - autodiscover.starlink.com
+20.140.191.232:
+ - wifi-update.starlink.com
+72.167.238.29:
+ - smtp.starlink.com

@@ -1,0 +1,822 @@
+Using domain server:
+Name: 8.8.8.8
+Address: 8.8.8.8#53
+Aliases: 
+
+msoid.starlink.com is an alias for clientconfig.microsoftonline-p.net.
+clientconfig.microsoftonline-p.net is an alias for a.privatelink.msidentity.com.
+a.privatelink.msidentity.com is an alias for prda.aadg.msidentity.com.
+prda.aadg.msidentity.com is an alias for www.tm.a.prd.aadg.trafficmanager.net.
+www.tm.a.prd.aadg.trafficmanager.net has address 40.126.0.73
+www.tm.a.prd.aadg.trafficmanager.net has address 20.190.128.128
+www.tm.a.prd.aadg.trafficmanager.net has address 40.126.0.69
+www.tm.a.prd.aadg.trafficmanager.net has address 20.190.128.64
+www.tm.a.prd.aadg.trafficmanager.net has address 40.126.0.70
+www.tm.a.prd.aadg.trafficmanager.net has address 40.126.0.72
+www.tm.a.prd.aadg.trafficmanager.net has address 40.126.0.71
+www.tm.a.prd.aadg.trafficmanager.net has address 40.126.0.74
+www.tm.a.prd.aadg.trafficmanager.net is an alias for wst.next.a.prd.aadg.trafficmanager.net.
+www.tm.a.prd.aadg.trafficmanager.net is an alias for wst.next.a.prd.aadg.trafficmanager.net.
+Using domain server:
+Name: 1.1.1.1
+Address: 1.1.1.1#53
+Aliases: 
+
+msoid.starlink.com is an alias for clientconfig.microsoftonline-p.net.
+clientconfig.microsoftonline-p.net is an alias for a.privatelink.msidentity.com.
+a.privatelink.msidentity.com is an alias for prda.aadg.msidentity.com.
+prda.aadg.msidentity.com is an alias for www.tm.a.prd.aadg.trafficmanager.net.
+www.tm.a.prd.aadg.trafficmanager.net has address 40.126.0.74
+www.tm.a.prd.aadg.trafficmanager.net has address 40.126.0.73
+www.tm.a.prd.aadg.trafficmanager.net has address 40.126.0.69
+www.tm.a.prd.aadg.trafficmanager.net has address 40.126.0.65
+www.tm.a.prd.aadg.trafficmanager.net has address 40.126.0.67
+www.tm.a.prd.aadg.trafficmanager.net has address 20.190.128.64
+www.tm.a.prd.aadg.trafficmanager.net has address 40.126.0.68
+www.tm.a.prd.aadg.trafficmanager.net has address 20.190.128.128
+www.tm.a.prd.aadg.trafficmanager.net is an alias for san.next.a.prd.aadg.trafficmanager.net.
+www.tm.a.prd.aadg.trafficmanager.net is an alias for wst.next.a.prd.aadg.trafficmanager.net.
+Using domain server:
+Name: 8.8.4.4
+Address: 8.8.4.4#53
+Aliases: 
+
+msoid.starlink.com is an alias for clientconfig.microsoftonline-p.net.
+clientconfig.microsoftonline-p.net is an alias for a.privatelink.msidentity.com.
+a.privatelink.msidentity.com is an alias for prda.aadg.msidentity.com.
+prda.aadg.msidentity.com is an alias for www.tm.a.prd.aadg.trafficmanager.net.
+www.tm.a.prd.aadg.trafficmanager.net has address 40.126.0.72
+www.tm.a.prd.aadg.trafficmanager.net has address 40.126.0.65
+www.tm.a.prd.aadg.trafficmanager.net has address 40.126.0.71
+www.tm.a.prd.aadg.trafficmanager.net has address 40.126.0.70
+www.tm.a.prd.aadg.trafficmanager.net has address 40.126.0.67
+www.tm.a.prd.aadg.trafficmanager.net has address 40.126.0.68
+www.tm.a.prd.aadg.trafficmanager.net has address 40.126.0.69
+www.tm.a.prd.aadg.trafficmanager.net has address 20.190.128.128
+www.tm.a.prd.aadg.trafficmanager.net is an alias for wst.next.a.prd.aadg.trafficmanager.net.
+www.tm.a.prd.aadg.trafficmanager.net is an alias for san.next.a.prd.aadg.trafficmanager.net.
+Using domain server:
+Name: 8.8.8.8
+Address: 8.8.8.8#53
+Aliases: 
+
+api.starlink.com is an alias for spacex.map.fastly.net.
+spacex.map.fastly.net has address 151.101.2.133
+spacex.map.fastly.net has address 151.101.66.133
+spacex.map.fastly.net has address 151.101.130.133
+spacex.map.fastly.net has address 151.101.194.133
+Using domain server:
+Name: 1.1.1.1
+Address: 1.1.1.1#53
+Aliases: 
+
+api.starlink.com is an alias for spacex.map.fastly.net.
+spacex.map.fastly.net has address 151.101.2.133
+spacex.map.fastly.net has address 151.101.66.133
+spacex.map.fastly.net has address 151.101.130.133
+spacex.map.fastly.net has address 151.101.194.133
+Using domain server:
+Name: 8.8.4.4
+Address: 8.8.4.4#53
+Aliases: 
+
+api.starlink.com is an alias for spacex.map.fastly.net.
+spacex.map.fastly.net has address 151.101.2.133
+spacex.map.fastly.net has address 151.101.66.133
+spacex.map.fastly.net has address 151.101.130.133
+spacex.map.fastly.net has address 151.101.194.133
+Using domain server:
+Name: 8.8.8.8
+Address: 8.8.8.8#53
+Aliases: 
+
+www.starlink.com is an alias for spacex.map.fastly.net.
+spacex.map.fastly.net has address 151.101.2.133
+spacex.map.fastly.net has address 151.101.66.133
+spacex.map.fastly.net has address 151.101.130.133
+spacex.map.fastly.net has address 151.101.194.133
+Using domain server:
+Name: 1.1.1.1
+Address: 1.1.1.1#53
+Aliases: 
+
+www.starlink.com is an alias for spacex.map.fastly.net.
+spacex.map.fastly.net has address 151.101.130.133
+spacex.map.fastly.net has address 151.101.194.133
+spacex.map.fastly.net has address 151.101.2.133
+spacex.map.fastly.net has address 151.101.66.133
+Using domain server:
+Name: 8.8.4.4
+Address: 8.8.4.4#53
+Aliases: 
+
+www.starlink.com is an alias for spacex.map.fastly.net.
+spacex.map.fastly.net has address 151.101.2.133
+spacex.map.fastly.net has address 151.101.66.133
+spacex.map.fastly.net has address 151.101.130.133
+spacex.map.fastly.net has address 151.101.194.133
+Using domain server:
+Name: 1.1.1.1
+Address: 1.1.1.1#53
+Aliases: 
+
+lyncdiscover.starlink.com is an alias for webdir.online.lync.com.
+webdir.online.lync.com has address 52.112.66.206
+webdir.online.lync.com has IPv6 address 2603:1037:0:f::12
+webdir.online.lync.com has IPv6 address 2603:1037:0:4::e
+webdir.online.lync.com has IPv6 address 2603:1037:0:6::e
+webdir.online.lync.com has IPv6 address 2603:1037:0:8::e
+webdir.online.lync.com has IPv6 address 2603:1037:0:d::12
+webdir.online.lync.com has IPv6 address 2603:1037:0:b::e
+webdir.online.lync.com has IPv6 address 2603:1037:0:3::e
+webdir.online.lync.com has IPv6 address 2603:1037:0:1::e
+Using domain server:
+Name: 1.1.1.1
+Address: 1.1.1.1#53
+Aliases: 
+
+support.starlink.com is an alias for spacex.map.fastly.net.
+spacex.map.fastly.net has address 151.101.130.133
+spacex.map.fastly.net has address 151.101.66.133
+spacex.map.fastly.net has address 151.101.194.133
+spacex.map.fastly.net has address 151.101.2.133
+Using domain server:
+Name: 1.1.1.1
+Address: 1.1.1.1#53
+Aliases: 
+
+mail.starlink.com is an alias for pop.secureserver.net.
+pop.secureserver.net has address 173.201.192.129
+pop.secureserver.net has address 173.201.192.158
+pop.secureserver.net has address 173.201.193.129
+pop.secureserver.net has address 173.201.193.97
+pop.secureserver.net has address 68.178.252.117
+pop.secureserver.net has address 72.167.218.138
+pop.secureserver.net has address 97.74.135.10
+pop.secureserver.net has address 97.74.135.143
+Using domain server:
+Name: 8.8.8.8
+Address: 8.8.8.8#53
+Aliases: 
+
+mail.starlink.com is an alias for pop.secureserver.net.
+pop.secureserver.net has address 173.201.192.129
+pop.secureserver.net has address 173.201.192.158
+pop.secureserver.net has address 173.201.193.129
+pop.secureserver.net has address 173.201.193.97
+pop.secureserver.net has address 68.178.252.117
+pop.secureserver.net has address 72.167.218.138
+pop.secureserver.net has address 97.74.135.10
+pop.secureserver.net has address 97.74.135.143
+Using domain server:
+Name: 8.8.8.8
+Address: 8.8.8.8#53
+Aliases: 
+
+support.starlink.com is an alias for spacex.map.fastly.net.
+spacex.map.fastly.net has address 151.101.2.133
+spacex.map.fastly.net has address 151.101.66.133
+spacex.map.fastly.net has address 151.101.130.133
+spacex.map.fastly.net has address 151.101.194.133
+Using domain server:
+Name: 8.8.8.8
+Address: 8.8.8.8#53
+Aliases: 
+
+lyncdiscover.starlink.com is an alias for webdir.online.lync.com.
+webdir.online.lync.com has address 52.112.66.206
+webdir.online.lync.com has IPv6 address 2603:1037:0:1::e
+webdir.online.lync.com has IPv6 address 2603:1037:0:d::12
+webdir.online.lync.com has IPv6 address 2603:1037:0:f::12
+webdir.online.lync.com has IPv6 address 2603:1037:0:b::e
+webdir.online.lync.com has IPv6 address 2603:1037:0:8::e
+webdir.online.lync.com has IPv6 address 2603:1037:0:6::e
+webdir.online.lync.com has IPv6 address 2603:1037:0:4::e
+webdir.online.lync.com has IPv6 address 2603:1037:0:3::e
+Using domain server:
+Name: 8.8.4.4
+Address: 8.8.4.4#53
+Aliases: 
+
+support.starlink.com is an alias for spacex.map.fastly.net.
+spacex.map.fastly.net has address 151.101.2.133
+spacex.map.fastly.net has address 151.101.66.133
+spacex.map.fastly.net has address 151.101.130.133
+spacex.map.fastly.net has address 151.101.194.133
+Using domain server:
+Name: 1.1.1.1
+Address: 1.1.1.1#53
+Aliases: 
+
+shop.starlink.com is an alias for spacex.map.fastly.net.
+spacex.map.fastly.net has address 151.101.2.133
+spacex.map.fastly.net has address 151.101.66.133
+spacex.map.fastly.net has address 151.101.130.133
+spacex.map.fastly.net has address 151.101.194.133
+Using domain server:
+Name: 8.8.4.4
+Address: 8.8.4.4#53
+Aliases: 
+
+shop.starlink.com is an alias for spacex.map.fastly.net.
+spacex.map.fastly.net has address 151.101.2.133
+spacex.map.fastly.net has address 151.101.66.133
+spacex.map.fastly.net has address 151.101.130.133
+spacex.map.fastly.net has address 151.101.194.133
+Using domain server:
+Name: 8.8.8.8
+Address: 8.8.8.8#53
+Aliases: 
+
+imap.starlink.com is an alias for imap.secureserver.net.
+imap.secureserver.net has address 97.74.135.143
+imap.secureserver.net has address 97.74.135.10
+imap.secureserver.net has address 173.201.192.129
+imap.secureserver.net has address 173.201.192.158
+imap.secureserver.net has address 68.178.252.117
+imap.secureserver.net has address 173.201.193.129
+imap.secureserver.net has address 72.167.218.138
+imap.secureserver.net has address 173.201.193.97
+Using domain server:
+Name: 1.1.1.1
+Address: 1.1.1.1#53
+Aliases: 
+
+auth.starlink.com is an alias for spacex.map.fastly.net.
+spacex.map.fastly.net has address 151.101.2.133
+spacex.map.fastly.net has address 151.101.66.133
+spacex.map.fastly.net has address 151.101.130.133
+spacex.map.fastly.net has address 151.101.194.133
+Using domain server:
+Name: 8.8.4.4
+Address: 8.8.4.4#53
+Aliases: 
+
+mail.starlink.com is an alias for pop.secureserver.net.
+pop.secureserver.net has address 173.201.192.129
+pop.secureserver.net has address 173.201.192.158
+pop.secureserver.net has address 173.201.193.129
+pop.secureserver.net has address 173.201.193.97
+pop.secureserver.net has address 68.178.252.117
+pop.secureserver.net has address 72.167.218.138
+pop.secureserver.net has address 97.74.135.10
+pop.secureserver.net has address 97.74.135.143
+Using domain server:
+Name: 8.8.8.8
+Address: 8.8.8.8#53
+Aliases: 
+
+smtp.starlink.com is an alias for smtp.secureserver.net.
+smtp.secureserver.net has address 68.178.213.203
+smtp.secureserver.net has address 68.178.213.37
+smtp.secureserver.net has address 72.167.238.29
+Using domain server:
+Name: 1.1.1.1
+Address: 1.1.1.1#53
+Aliases: 
+
+pop.starlink.com is an alias for pop.secureserver.net.
+pop.secureserver.net has address 173.201.192.129
+pop.secureserver.net has address 173.201.192.158
+pop.secureserver.net has address 173.201.193.129
+pop.secureserver.net has address 173.201.193.97
+pop.secureserver.net has address 68.178.252.117
+pop.secureserver.net has address 72.167.218.138
+pop.secureserver.net has address 97.74.135.10
+pop.secureserver.net has address 97.74.135.143
+Using domain server:
+Name: 1.1.1.1
+Address: 1.1.1.1#53
+Aliases: 
+
+smtp.starlink.com is an alias for smtp.secureserver.net.
+smtp.secureserver.net has address 68.178.213.203
+smtp.secureserver.net has address 68.178.213.37
+smtp.secureserver.net has address 72.167.238.29
+Using domain server:
+Name: 8.8.8.8
+Address: 8.8.8.8#53
+Aliases: 
+
+shop.starlink.com is an alias for spacex.map.fastly.net.
+spacex.map.fastly.net has address 151.101.2.133
+spacex.map.fastly.net has address 151.101.66.133
+spacex.map.fastly.net has address 151.101.130.133
+spacex.map.fastly.net has address 151.101.194.133
+Using domain server:
+Name: 1.1.1.1
+Address: 1.1.1.1#53
+Aliases: 
+
+imap.starlink.com is an alias for imap.secureserver.net.
+imap.secureserver.net has address 173.201.192.129
+imap.secureserver.net has address 173.201.192.158
+imap.secureserver.net has address 173.201.193.129
+imap.secureserver.net has address 173.201.193.97
+imap.secureserver.net has address 68.178.252.117
+imap.secureserver.net has address 72.167.218.138
+imap.secureserver.net has address 97.74.135.10
+imap.secureserver.net has address 97.74.135.143
+Using domain server:
+Name: 8.8.8.8
+Address: 8.8.8.8#53
+Aliases: 
+
+auth.starlink.com is an alias for spacex.map.fastly.net.
+spacex.map.fastly.net has address 151.101.2.133
+spacex.map.fastly.net has address 151.101.66.133
+spacex.map.fastly.net has address 151.101.130.133
+spacex.map.fastly.net has address 151.101.194.133
+Using domain server:
+Name: 8.8.4.4
+Address: 8.8.4.4#53
+Aliases: 
+
+auth.starlink.com is an alias for spacex.map.fastly.net.
+spacex.map.fastly.net has address 151.101.2.133
+spacex.map.fastly.net has address 151.101.66.133
+spacex.map.fastly.net has address 151.101.130.133
+spacex.map.fastly.net has address 151.101.194.133
+Using domain server:
+Name: 8.8.4.4
+Address: 8.8.4.4#53
+Aliases: 
+
+imap.starlink.com is an alias for imap.secureserver.net.
+imap.secureserver.net has address 173.201.192.129
+imap.secureserver.net has address 173.201.192.158
+imap.secureserver.net has address 173.201.193.129
+imap.secureserver.net has address 173.201.193.97
+imap.secureserver.net has address 68.178.252.117
+imap.secureserver.net has address 72.167.218.138
+imap.secureserver.net has address 97.74.135.10
+imap.secureserver.net has address 97.74.135.143
+Using domain server:
+Name: 8.8.4.4
+Address: 8.8.4.4#53
+Aliases: 
+
+lyncdiscover.starlink.com is an alias for webdir.online.lync.com.
+webdir.online.lync.com has address 52.112.65.78
+webdir.online.lync.com has IPv6 address 2603:1037:0:2::e
+Using domain server:
+Name: 8.8.4.4
+Address: 8.8.4.4#53
+Aliases: 
+
+pop.starlink.com is an alias for pop.secureserver.net.
+pop.secureserver.net has address 173.201.193.129
+pop.secureserver.net has address 72.167.218.138
+pop.secureserver.net has address 173.201.192.129
+pop.secureserver.net has address 173.201.192.158
+pop.secureserver.net has address 68.178.252.117
+pop.secureserver.net has address 97.74.135.10
+pop.secureserver.net has address 97.74.135.143
+pop.secureserver.net has address 173.201.193.97
+Using domain server:
+Name: 1.1.1.1
+Address: 1.1.1.1#53
+Aliases: 
+
+mobilemail.starlink.com is an alias for mobilemail-v01.prod.mesa1.secureserver.net.
+mobilemail-v01.prod.mesa1.secureserver.net has address 173.201.193.5
+Using domain server:
+Name: 8.8.4.4
+Address: 8.8.4.4#53
+Aliases: 
+
+smtp.starlink.com is an alias for smtp.secureserver.net.
+smtp.secureserver.net has address 72.167.238.29
+smtp.secureserver.net has address 68.178.213.203
+smtp.secureserver.net has address 68.178.213.37
+Using domain server:
+Name: 8.8.8.8
+Address: 8.8.8.8#53
+Aliases: 
+
+pop.starlink.com is an alias for pop.secureserver.net.
+pop.secureserver.net has address 173.201.192.158
+pop.secureserver.net has address 97.74.135.10
+pop.secureserver.net has address 68.178.252.117
+pop.secureserver.net has address 173.201.193.97
+pop.secureserver.net has address 173.201.192.129
+pop.secureserver.net has address 97.74.135.143
+pop.secureserver.net has address 72.167.218.138
+pop.secureserver.net has address 173.201.193.129
+Using domain server:
+Name: 8.8.8.8
+Address: 8.8.8.8#53
+Aliases: 
+
+e.starlink.com is an alias for email.secureserver.net.
+email.secureserver.net has address 173.201.192.133
+email.secureserver.net has address 173.201.192.148
+email.secureserver.net has address 173.201.192.20
+email.secureserver.net has address 173.201.192.5
+email.secureserver.net has address 173.201.193.133
+email.secureserver.net has address 173.201.193.148
+email.secureserver.net has address 173.201.193.20
+email.secureserver.net has address 173.201.193.5
+email.secureserver.net has address 45.40.130.40
+email.secureserver.net has address 45.40.130.41
+email.secureserver.net has address 45.40.140.6
+email.secureserver.net has address 68.178.252.133
+email.secureserver.net has address 68.178.252.148
+email.secureserver.net has address 68.178.252.20
+email.secureserver.net has address 68.178.252.5
+email.secureserver.net has address 72.167.218.173
+email.secureserver.net has address 72.167.218.183
+email.secureserver.net has address 72.167.218.45
+email.secureserver.net has address 72.167.218.55
+email.secureserver.net has address 97.74.135.133
+email.secureserver.net has address 97.74.135.148
+email.secureserver.net has address 97.74.135.45
+email.secureserver.net has address 97.74.135.55
+Using domain server:
+Name: 8.8.8.8
+Address: 8.8.8.8#53
+Aliases: 
+
+email.starlink.com is an alias for email.secureserver.net.
+email.secureserver.net has address 97.74.135.45
+email.secureserver.net has address 173.201.193.20
+email.secureserver.net has address 173.201.192.148
+email.secureserver.net has address 72.167.218.55
+email.secureserver.net has address 173.201.192.20
+email.secureserver.net has address 68.178.252.20
+email.secureserver.net has address 97.74.135.148
+email.secureserver.net has address 68.178.252.133
+email.secureserver.net has address 97.74.135.133
+email.secureserver.net has address 173.201.192.5
+email.secureserver.net has address 72.167.218.173
+email.secureserver.net has address 173.201.193.133
+email.secureserver.net has address 45.40.130.41
+email.secureserver.net has address 45.40.140.6
+email.secureserver.net has address 173.201.193.5
+email.secureserver.net has address 45.40.130.40
+email.secureserver.net has address 72.167.218.45
+email.secureserver.net has address 173.201.193.148
+email.secureserver.net has address 72.167.218.183
+email.secureserver.net has address 68.178.252.148
+email.secureserver.net has address 173.201.192.133
+email.secureserver.net has address 97.74.135.55
+email.secureserver.net has address 68.178.252.5
+Using domain server:
+Name: 1.1.1.1
+Address: 1.1.1.1#53
+Aliases: 
+
+e.starlink.com is an alias for email.secureserver.net.
+email.secureserver.net has address 97.74.135.55
+email.secureserver.net has address 173.201.192.20
+email.secureserver.net has address 173.201.193.133
+email.secureserver.net has address 173.201.192.5
+email.secureserver.net has address 97.74.135.148
+email.secureserver.net has address 72.167.218.55
+email.secureserver.net has address 173.201.192.133
+email.secureserver.net has address 68.178.252.133
+email.secureserver.net has address 45.40.130.41
+email.secureserver.net has address 97.74.135.133
+email.secureserver.net has address 45.40.140.6
+email.secureserver.net has address 68.178.252.148
+email.secureserver.net has address 72.167.218.183
+email.secureserver.net has address 72.167.218.173
+email.secureserver.net has address 173.201.193.20
+email.secureserver.net has address 173.201.193.148
+email.secureserver.net has address 173.201.192.148
+email.secureserver.net has address 173.201.193.5
+email.secureserver.net has address 68.178.252.20
+email.secureserver.net has address 72.167.218.45
+email.secureserver.net has address 68.178.252.5
+email.secureserver.net has address 97.74.135.45
+email.secureserver.net has address 45.40.130.40
+Using domain server:
+Name: 1.1.1.1
+Address: 1.1.1.1#53
+Aliases: 
+
+webmail.starlink.com is an alias for webmail.secureserver.net.
+webmail.secureserver.net is an alias for email.secureserver.net.
+email.secureserver.net has address 97.74.135.55
+email.secureserver.net has address 173.201.192.20
+email.secureserver.net has address 173.201.193.133
+email.secureserver.net has address 173.201.192.5
+email.secureserver.net has address 97.74.135.148
+email.secureserver.net has address 72.167.218.55
+email.secureserver.net has address 173.201.192.133
+email.secureserver.net has address 68.178.252.133
+email.secureserver.net has address 45.40.130.41
+email.secureserver.net has address 97.74.135.133
+email.secureserver.net has address 45.40.140.6
+email.secureserver.net has address 68.178.252.148
+email.secureserver.net has address 72.167.218.183
+email.secureserver.net has address 72.167.218.173
+email.secureserver.net has address 173.201.193.20
+email.secureserver.net has address 173.201.193.148
+email.secureserver.net has address 173.201.192.148
+email.secureserver.net has address 173.201.193.5
+email.secureserver.net has address 68.178.252.20
+email.secureserver.net has address 72.167.218.45
+email.secureserver.net has address 68.178.252.5
+email.secureserver.net has address 97.74.135.45
+email.secureserver.net has address 45.40.130.40
+Using domain server:
+Name: 8.8.8.8
+Address: 8.8.8.8#53
+Aliases: 
+
+mobilemail.starlink.com is an alias for mobilemail-v01.prod.mesa1.secureserver.net.
+mobilemail-v01.prod.mesa1.secureserver.net has address 173.201.193.5
+Using domain server:
+Name: 1.1.1.1
+Address: 1.1.1.1#53
+Aliases: 
+
+pda.starlink.com is an alias for mobilemail-v01.prod.mesa1.secureserver.net.
+mobilemail-v01.prod.mesa1.secureserver.net has address 173.201.193.5
+Using domain server:
+Name: 1.1.1.1
+Address: 1.1.1.1#53
+Aliases: 
+
+email.starlink.com is an alias for email.secureserver.net.
+email.secureserver.net has address 97.74.135.55
+email.secureserver.net has address 173.201.192.20
+email.secureserver.net has address 173.201.193.133
+email.secureserver.net has address 173.201.192.5
+email.secureserver.net has address 97.74.135.148
+email.secureserver.net has address 72.167.218.55
+email.secureserver.net has address 173.201.192.133
+email.secureserver.net has address 68.178.252.133
+email.secureserver.net has address 45.40.130.41
+email.secureserver.net has address 97.74.135.133
+email.secureserver.net has address 45.40.140.6
+email.secureserver.net has address 68.178.252.148
+email.secureserver.net has address 72.167.218.183
+email.secureserver.net has address 72.167.218.173
+email.secureserver.net has address 173.201.193.20
+email.secureserver.net has address 173.201.193.148
+email.secureserver.net has address 173.201.192.148
+email.secureserver.net has address 173.201.193.5
+email.secureserver.net has address 68.178.252.20
+email.secureserver.net has address 72.167.218.45
+email.secureserver.net has address 68.178.252.5
+email.secureserver.net has address 97.74.135.45
+email.secureserver.net has address 45.40.130.40
+Using domain server:
+Name: 8.8.4.4
+Address: 8.8.4.4#53
+Aliases: 
+
+e.starlink.com is an alias for email.secureserver.net.
+email.secureserver.net has address 173.201.193.133
+email.secureserver.net has address 45.40.130.41
+email.secureserver.net has address 173.201.193.148
+email.secureserver.net has address 173.201.192.20
+email.secureserver.net has address 45.40.140.6
+email.secureserver.net has address 72.167.218.55
+email.secureserver.net has address 173.201.192.5
+email.secureserver.net has address 97.74.135.45
+email.secureserver.net has address 68.178.252.5
+email.secureserver.net has address 68.178.252.148
+email.secureserver.net has address 97.74.135.55
+email.secureserver.net has address 97.74.135.148
+email.secureserver.net has address 72.167.218.173
+email.secureserver.net has address 173.201.193.5
+email.secureserver.net has address 68.178.252.133
+email.secureserver.net has address 68.178.252.20
+email.secureserver.net has address 173.201.192.148
+email.secureserver.net has address 72.167.218.45
+email.secureserver.net has address 173.201.192.133
+email.secureserver.net has address 72.167.218.183
+email.secureserver.net has address 97.74.135.133
+email.secureserver.net has address 45.40.130.40
+email.secureserver.net has address 173.201.193.20
+Using domain server:
+Name: 8.8.4.4
+Address: 8.8.4.4#53
+Aliases: 
+
+email.starlink.com is an alias for email.secureserver.net.
+email.secureserver.net has address 173.201.193.20
+email.secureserver.net has address 173.201.193.148
+email.secureserver.net has address 72.167.218.173
+email.secureserver.net has address 173.201.192.5
+email.secureserver.net has address 97.74.135.55
+email.secureserver.net has address 72.167.218.183
+email.secureserver.net has address 68.178.252.20
+email.secureserver.net has address 173.201.193.5
+email.secureserver.net has address 97.74.135.45
+email.secureserver.net has address 68.178.252.133
+email.secureserver.net has address 72.167.218.55
+email.secureserver.net has address 97.74.135.148
+email.secureserver.net has address 68.178.252.148
+email.secureserver.net has address 45.40.130.40
+email.secureserver.net has address 173.201.192.148
+email.secureserver.net has address 72.167.218.45
+email.secureserver.net has address 68.178.252.5
+email.secureserver.net has address 45.40.140.6
+email.secureserver.net has address 45.40.130.41
+email.secureserver.net has address 97.74.135.133
+email.secureserver.net has address 173.201.192.133
+email.secureserver.net has address 173.201.193.133
+email.secureserver.net has address 173.201.192.20
+Using domain server:
+Name: 8.8.4.4
+Address: 8.8.4.4#53
+Aliases: 
+
+pda.starlink.com is an alias for mobilemail-v01.prod.mesa1.secureserver.net.
+mobilemail-v01.prod.mesa1.secureserver.net has address 173.201.193.5
+Using domain server:
+Name: 8.8.4.4
+Address: 8.8.4.4#53
+Aliases: 
+
+autodiscover.starlink.com is an alias for autodiscover.outlook.com.
+autodiscover.outlook.com is an alias for autod.ha-autod.office.com.
+autod.ha-autod.office.com is an alias for autod.ms-acdc-autod.office.com.
+autod.ms-acdc-autod.office.com has address 52.96.16.168
+autod.ms-acdc-autod.office.com has address 52.96.57.104
+autod.ms-acdc-autod.office.com has address 40.97.120.40
+autod.ms-acdc-autod.office.com has address 52.96.8.136
+autod.ms-acdc-autod.office.com has IPv6 address 2603:1036:805:64::8
+autod.ms-acdc-autod.office.com has IPv6 address 2603:1036:804:e::8
+autod.ms-acdc-autod.office.com has IPv6 address 2603:1036:805:104::8
+autod.ms-acdc-autod.office.com has IPv6 address 2603:1036:804:20::8
+Using domain server:
+Name: 8.8.4.4
+Address: 8.8.4.4#53
+Aliases: 
+
+mobilemail.starlink.com is an alias for mobilemail-v01.prod.mesa1.secureserver.net.
+mobilemail-v01.prod.mesa1.secureserver.net has address 173.201.193.5
+Using domain server:
+Name: 8.8.8.8
+Address: 8.8.8.8#53
+Aliases: 
+
+webmail.starlink.com is an alias for webmail.secureserver.net.
+webmail.secureserver.net is an alias for email.secureserver.net.
+email.secureserver.net has address 173.201.192.133
+email.secureserver.net has address 173.201.192.148
+email.secureserver.net has address 173.201.192.20
+email.secureserver.net has address 173.201.192.5
+email.secureserver.net has address 173.201.193.133
+email.secureserver.net has address 173.201.193.148
+email.secureserver.net has address 173.201.193.20
+email.secureserver.net has address 173.201.193.5
+email.secureserver.net has address 45.40.130.40
+email.secureserver.net has address 45.40.130.41
+email.secureserver.net has address 45.40.140.6
+email.secureserver.net has address 68.178.252.133
+email.secureserver.net has address 68.178.252.148
+email.secureserver.net has address 68.178.252.20
+email.secureserver.net has address 68.178.252.5
+email.secureserver.net has address 72.167.218.173
+email.secureserver.net has address 72.167.218.183
+email.secureserver.net has address 72.167.218.45
+email.secureserver.net has address 72.167.218.55
+email.secureserver.net has address 97.74.135.133
+email.secureserver.net has address 97.74.135.148
+email.secureserver.net has address 97.74.135.45
+email.secureserver.net has address 97.74.135.55
+Using domain server:
+Name: 1.1.1.1
+Address: 1.1.1.1#53
+Aliases: 
+
+sip.starlink.com is an alias for sipdir.online.lync.com.
+sipdir.online.lync.com has address 52.112.65.27
+sipdir.online.lync.com has IPv6 address 2603:1037:0:3::b
+Using domain server:
+Name: 8.8.4.4
+Address: 8.8.4.4#53
+Aliases: 
+
+sip.starlink.com is an alias for sipdir.online.lync.com.
+sipdir.online.lync.com has address 52.112.67.51
+sipdir.online.lync.com has IPv6 address 2603:1037:0:8::b
+sipdir.online.lync.com has IPv6 address 2603:1037:0:d::f
+sipdir.online.lync.com has IPv6 address 2603:1037:0:f::f
+sipdir.online.lync.com has IPv6 address 2603:1037:0:6::b
+sipdir.online.lync.com has IPv6 address 2603:1037:0:b::b
+sipdir.online.lync.com has IPv6 address 2603:1037:0:1::b
+sipdir.online.lync.com has IPv6 address 2603:1037:0:4::b
+sipdir.online.lync.com has IPv6 address 2603:1037:0:3::b
+Using domain server:
+Name: 8.8.4.4
+Address: 8.8.4.4#53
+Aliases: 
+
+webmail.starlink.com is an alias for webmail.secureserver.net.
+webmail.secureserver.net is an alias for email.secureserver.net.
+email.secureserver.net has address 173.201.192.20
+email.secureserver.net has address 68.178.252.5
+email.secureserver.net has address 173.201.193.5
+email.secureserver.net has address 68.178.252.133
+email.secureserver.net has address 72.167.218.45
+email.secureserver.net has address 97.74.135.55
+email.secureserver.net has address 97.74.135.133
+email.secureserver.net has address 173.201.193.148
+email.secureserver.net has address 68.178.252.20
+email.secureserver.net has address 97.74.135.45
+email.secureserver.net has address 173.201.193.133
+email.secureserver.net has address 72.167.218.183
+email.secureserver.net has address 72.167.218.55
+email.secureserver.net has address 173.201.193.20
+email.secureserver.net has address 45.40.130.41
+email.secureserver.net has address 68.178.252.148
+email.secureserver.net has address 97.74.135.148
+email.secureserver.net has address 173.201.192.133
+email.secureserver.net has address 173.201.192.5
+email.secureserver.net has address 45.40.130.40
+email.secureserver.net has address 45.40.140.6
+email.secureserver.net has address 72.167.218.173
+email.secureserver.net has address 173.201.192.148
+Using domain server:
+Name: 8.8.8.8
+Address: 8.8.8.8#53
+Aliases: 
+
+autodiscover.starlink.com is an alias for autodiscover.outlook.com.
+autodiscover.outlook.com is an alias for autod.ha-autod.office.com.
+autod.ha-autod.office.com is an alias for autod.ms-acdc-autod.office.com.
+autod.ms-acdc-autod.office.com has address 52.96.57.56
+autod.ms-acdc-autod.office.com has address 40.97.120.184
+autod.ms-acdc-autod.office.com has address 52.96.103.56
+autod.ms-acdc-autod.office.com has address 52.96.10.248
+autod.ms-acdc-autod.office.com has IPv6 address 2603:1036:305:388a::8
+autod.ms-acdc-autod.office.com has IPv6 address 2603:1036:305:4014::8
+autod.ms-acdc-autod.office.com has IPv6 address 2603:1036:305:401d::8
+autod.ms-acdc-autod.office.com has IPv6 address 2603:1036:804:8::8
+Using domain server:
+Name: 1.1.1.1
+Address: 1.1.1.1#53
+Aliases: 
+
+ftp.starlink.com is an alias for starlink.com.
+starlink.com has address 151.101.66.133
+starlink.com mail is handled by 0 starlink-com.mail.protection.outlook.com.
+Using domain server:
+Name: 1.1.1.1
+Address: 1.1.1.1#53
+Aliases: 
+
+autodiscover.starlink.com is an alias for autodiscover.outlook.com.
+autodiscover.outlook.com is an alias for autod.ha-autod.office.com.
+autod.ha-autod.office.com has address 40.97.120.232
+autod.ha-autod.office.com has address 40.97.212.8
+autod.ha-autod.office.com has address 52.96.121.104
+autod.ha-autod.office.com has address 40.97.120.168
+autod.ha-autod.office.com has address 52.96.57.88
+autod.ha-autod.office.com has address 40.97.121.8
+autod.ha-autod.office.com has address 52.96.57.40
+autod.ha-autod.office.com has address 52.96.22.184
+autod.ha-autod.office.com has IPv6 address 2603:1036:805:104::8
+autod.ha-autod.office.com has IPv6 address 2603:1036:305:3006::8
+autod.ha-autod.office.com has IPv6 address 2603:1036:305:401e::8
+autod.ha-autod.office.com has IPv6 address 2603:1036:305:3005::8
+autod.ha-autod.office.com has IPv6 address 2603:1036:305:3008::8
+autod.ha-autod.office.com has IPv6 address 2603:1036:800::8
+autod.ha-autod.office.com has IPv6 address 2603:1036:305:3004::8
+autod.ha-autod.office.com has IPv6 address 2603:1036:305:3889::8
+autod.ha-autod.office.com is an alias for sat-autod-mvp.trafficmanager.net.
+Using domain server:
+Name: 8.8.8.8
+Address: 8.8.8.8#53
+Aliases: 
+
+pda.starlink.com is an alias for mobilemail-v01.prod.mesa1.secureserver.net.
+mobilemail-v01.prod.mesa1.secureserver.net has address 173.201.193.5
+Using domain server:
+Name: 8.8.8.8
+Address: 8.8.8.8#53
+Aliases: 
+
+ftp.starlink.com is an alias for starlink.com.
+starlink.com has address 151.101.66.133
+starlink.com mail is handled by 0 starlink-com.mail.protection.outlook.com.
+Using domain server:
+Name: 8.8.8.8
+Address: 8.8.8.8#53
+Aliases: 
+
+sip.starlink.com is an alias for sipdir.online.lync.com.
+sipdir.online.lync.com has address 52.112.65.203
+sipdir.online.lync.com has IPv6 address 2603:1037:0:c::f
+sipdir.online.lync.com has IPv6 address 2603:1037:0:2::b
+sipdir.online.lync.com has IPv6 address 2603:1037:0:7::b
+sipdir.online.lync.com has IPv6 address 2603:1037:0:e::f
+sipdir.online.lync.com has IPv6 address 2603:1037:0:a::b
+sipdir.online.lync.com has IPv6 address 2603:1037:0:5::b
+sipdir.online.lync.com has IPv6 address 2603:1037::b
+sipdir.online.lync.com has IPv6 address 2603:1037:0:4::b
+Using domain server:
+Name: 8.8.4.4
+Address: 8.8.4.4#53
+Aliases: 
+
+ftp.starlink.com is an alias for starlink.com.
+starlink.com has address 151.101.66.133
+starlink.com mail is handled by 0 starlink-com.mail.protection.outlook.com.
