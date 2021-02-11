@@ -930,15 +930,6 @@
 			]
 		},
 		{
-			"name": "GitLab",
-			"url": "https://hackerone.com/gitlab",
-			"bounty": true,
-			"domains": [
-				"gitter.im",
-				"gitlab.com"
-			]
-		},
-		{
 			"name": "Greenhouse.io",
 			"url": "https://hackerone.com/greenhouse",
 			"bounty": true,
@@ -1022,15 +1013,6 @@
 			"domains": [
 				"pornhub.com",
 				"pornhubpremium.com"
-			]
-		},
-		{
-			"name": "Airtable",
-			"url": "https://hackerone.com/airtable",
-			"bounty": true,
-			"domains": [
-				"airtable.com",
-				"staging-airtableblocks.com"
 			]
 		},
 		{
@@ -1338,15 +1320,6 @@
 			"url": "https://hackerone.com/owncloud",
 			"bounty": true,
 			"domains": []
-		},
-		{
-			"name": "Quora",
-			"url": "https://hackerone.com/quora",
-			"bounty": true,
-			"domains": [
-				"app.mobile",
-				"quora.com"
-			]
 		},
 		{
 			"name": "Goldman Sachs",
