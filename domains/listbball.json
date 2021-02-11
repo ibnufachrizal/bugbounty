@@ -1087,17 +1087,6 @@
 			]
 		},
 		{
-			"name": "Shopify",
-			"url": "https://hackerone.com/shopify",
-			"bounty": true,
-			"domains": [
-				"exchangemarketplace.com",
-				"shopify.com",
-				"shopifykloud.com",
-				"myshopify.com"
-			]
-		},
-		{
 			"name": "Udemy",
 			"url": "https://hackerone.com/udemy",
 			"bounty": true,
