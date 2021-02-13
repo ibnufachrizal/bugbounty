@@ -2,15 +2,6 @@
 	"programs": [
 		
 		{
-			"name": "Swisscom",
-			"url": "https://hackerone.com/swisscom,
-			"bounty": true,
-			"domains": [
-				"swisscom.ch",
-				"swisscom.com"
-			]
-		},
-		{
 			"name": "SpaceX",
 			"url": "https://bugcrowd.com/spacex",
 			"bounty": true,
@@ -2822,6 +2813,15 @@
 			"bounty": true,
 			"domains": [
 				"cafebazaar.ir"
+			]
+		},
+		{
+			"name": "Swisscom",
+			"url": "https://hackerone.com/swisscom,
+			"bounty": true,
+			"domains": [
+				"swisscom.ch",
+				"swisscom.com"
 			]
 		},
 		{
