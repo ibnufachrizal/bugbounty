@@ -2817,7 +2817,7 @@
 		},
 		{
 			"name": "Swisscom",
-			"url": "https://hackerone.com/swisscom,
+			"url": "https://hackerone.com/swisscom",
 			"bounty": true,
 			"domains": [
 				"swisscom.ch",
